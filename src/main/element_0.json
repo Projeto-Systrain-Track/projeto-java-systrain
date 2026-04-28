@@ -1,0 +1,4378 @@
+{
+    "endereco_mac": "06:71:a3:c2:10:07",
+    "id_empresa": 2,
+    "nome_empresa": "Ferrovia Bandeirante S.A.",
+    "id_maquina": 5,
+    "ultimas_metricas": [
+        {
+            "data_hora": "2026-04-07T22:20:00",
+            "criticidade": "MODERADO",
+            "score": 56.727,
+            "latencia_ping_ms": 71,
+            "memoria_total_bytes_human": "16.00 GB",
+            "memoria_disponivel_bytes_human": "2.39 GB",
+            "disco_livre_bytes_human": "30.72 GB",
+            "disco_usado_bytes_human": "225.28 GB",
+            "taxa_leitura_disco_bytes_por_segundo_human": "853.10 KB",
+            "taxa_escrita_disco_bytes_por_segundo_human": "1.41 MB",
+            "taxa_download_rede_bytes_por_segundo_human": "35.42 MB",
+            "taxa_upload_rede_bytes_por_segundo_human": "6.18 MB",
+            "frequencia_cpu_atual_mhz_human": "2.30 GHz",
+            "frequencia_cpu_minima_mhz_human": "1.20 GHz",
+            "frequencia_cpu_maxima_mhz_human": "4.20 GHz",
+            "percentual_uso_cpu": 40.32,
+            "percentual_uso_ram": 85.07,
+            "percentual_uso_disco": 88.0,
+            "percentual_uso_swap": 7.55,
+            "processos": [
+                {
+                    "pid": 12004,
+                    "name": "RBC_telemetria_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 11.54,
+                    "memory_percent": 0.32,
+                    "num_threads": 4,
+                    "cmdline": [
+                        "RBC_telemetria_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_telemetria_1",
+                    "create_time": "2026-04-01T03:00:00",
+                    "memory_info": {
+                        "rss": 55734969,
+                        "vms": 70031134
+                    },
+                    "cpu_times": {
+                        "user": 324.5,
+                        "system": 45.93
+                    }
+                },
+                {
+                    "pid": 12006,
+                    "name": "RBC_monitor_saude_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 9.2,
+                    "memory_percent": 0.17,
+                    "num_threads": 22,
+                    "cmdline": [
+                        "RBC_monitor_saude_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_monitor_saude_1",
+                    "create_time": "2026-04-01T03:00:00",
+                    "memory_info": {
+                        "rss": 28878802,
+                        "vms": 44881566
+                    },
+                    "cpu_times": {
+                        "user": 79.91,
+                        "system": 75.73
+                    }
+                },
+                {
+                    "pid": 12699,
+                    "name": "RBC_telemetria_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 8.41,
+                    "memory_percent": 0.29,
+                    "num_threads": 13,
+                    "cmdline": [
+                        "RBC_telemetria_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_telemetria_2",
+                    "create_time": "2026-04-02T00:20:00",
+                    "memory_info": {
+                        "rss": 50613266,
+                        "vms": 82627930
+                    },
+                    "cpu_times": {
+                        "user": 495.78,
+                        "system": 29.39
+                    }
+                },
+                {
+                    "pid": 14498,
+                    "name": "RBC_gerente_sessao_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 6.43,
+                    "memory_percent": 0.38,
+                    "num_threads": 11,
+                    "cmdline": [
+                        "RBC_gerente_sessao_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerente_sessao_1",
+                    "create_time": "2026-04-05T08:40:00",
+                    "memory_info": {
+                        "rss": 65791093,
+                        "vms": 84378495
+                    },
+                    "cpu_times": {
+                        "user": 32.13,
+                        "system": 4.83
+                    }
+                },
+                {
+                    "pid": 14602,
+                    "name": "RBC_escritor_auditoria_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 9.23,
+                    "memory_percent": 0.58,
+                    "num_threads": 2,
+                    "cmdline": [
+                        "RBC_escritor_auditoria_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_escritor_auditoria_2",
+                    "create_time": "2026-04-06T03:00:00",
+                    "memory_info": {
+                        "rss": 100327314,
+                        "vms": 180205233
+                    },
+                    "cpu_times": {
+                        "user": 476.47,
+                        "system": 83.28
+                    }
+                },
+                {
+                    "pid": 14604,
+                    "name": "RBC_aquecedor_cache_1",
+                    "username": "rbc_analista",
+                    "status": "stopped",
+                    "cpu_percent": 0.0,
+                    "memory_percent": 0.9,
+                    "num_threads": 20,
+                    "cmdline": [
+                        "RBC_aquecedor_cache_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_aquecedor_cache_1",
+                    "create_time": "2026-04-06T03:00:00",
+                    "memory_info": {
+                        "rss": 154302026,
+                        "vms": 250113576
+                    },
+                    "cpu_times": {
+                        "user": 475.04,
+                        "system": 58.22
+                    }
+                },
+                {
+                    "pid": 15219,
+                    "name": "RBC_calculo_rota_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 39.94,
+                    "memory_percent": 0.68,
+                    "num_threads": 14,
+                    "cmdline": [
+                        "RBC_calculo_rota_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_calculo_rota_1",
+                    "create_time": "2026-04-06T23:50:00",
+                    "memory_info": {
+                        "rss": 117255012,
+                        "vms": 183006299
+                    },
+                    "cpu_times": {
+                        "user": 200.48,
+                        "system": 70.5
+                    }
+                },
+                {
+                    "pid": 15249,
+                    "name": "RBC_gerente_sessao_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 10.03,
+                    "memory_percent": 0.41,
+                    "num_threads": 20,
+                    "cmdline": [
+                        "RBC_gerente_sessao_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerente_sessao_2",
+                    "create_time": "2026-04-07T02:00:00",
+                    "memory_info": {
+                        "rss": 70501231,
+                        "vms": 103340096
+                    },
+                    "cpu_times": {
+                        "user": 189.83,
+                        "system": 48.71
+                    }
+                },
+                {
+                    "pid": 15329,
+                    "name": "RBC_despacho_notificacao_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 16.16,
+                    "memory_percent": 0.47,
+                    "num_threads": 18,
+                    "cmdline": [
+                        "RBC_despacho_notificacao_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_despacho_notificacao_1",
+                    "create_time": "2026-04-07T08:50:00",
+                    "memory_info": {
+                        "rss": 80616245,
+                        "vms": 113005495
+                    },
+                    "cpu_times": {
+                        "user": 19.56,
+                        "system": 37.75
+                    }
+                },
+                {
+                    "pid": 15330,
+                    "name": "RBC_despacho_notificacao_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 16.79,
+                    "memory_percent": 0.49,
+                    "num_threads": 5,
+                    "cmdline": [
+                        "RBC_despacho_notificacao_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_despacho_notificacao_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 84038945,
+                        "vms": 122686027
+                    },
+                    "cpu_times": {
+                        "user": 405.11,
+                        "system": 4.81
+                    }
+                },
+                {
+                    "pid": 15332,
+                    "name": "RBC_inferencia_ml_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 60.72,
+                    "memory_percent": 1.67,
+                    "num_threads": 10,
+                    "cmdline": [
+                        "RBC_inferencia_ml_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_inferencia_ml_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 286255585,
+                        "vms": 361648523
+                    },
+                    "cpu_times": {
+                        "user": 234.89,
+                        "system": 100.48
+                    }
+                },
+                {
+                    "pid": 15334,
+                    "name": "RBC_gerador_relatorio_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 12.83,
+                    "memory_percent": 0.96,
+                    "num_threads": 10,
+                    "cmdline": [
+                        "RBC_gerador_relatorio_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerador_relatorio_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 165126316,
+                        "vms": 210708233
+                    },
+                    "cpu_times": {
+                        "user": 70.48,
+                        "system": 57.88
+                    }
+                },
+                {
+                    "pid": 15900,
+                    "name": "RBC_calculo_rota_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 49.77,
+                    "memory_percent": 1.21,
+                    "num_threads": 15,
+                    "cmdline": [
+                        "RBC_calculo_rota_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_calculo_rota_2",
+                    "create_time": "2026-04-08T00:40:00",
+                    "memory_info": {
+                        "rss": 207037219,
+                        "vms": 320771143
+                    },
+                    "cpu_times": {
+                        "user": 442.13,
+                        "system": 36.15
+                    }
+                },
+                {
+                    "pid": 15905,
+                    "name": "RBC_monitor_saude_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 8.42,
+                    "memory_percent": 0.11,
+                    "num_threads": 9,
+                    "cmdline": [
+                        "RBC_monitor_saude_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_monitor_saude_2",
+                    "create_time": "2026-04-08T01:10:00",
+                    "memory_info": {
+                        "rss": 18724826,
+                        "vms": 24291413
+                    },
+                    "cpu_times": {
+                        "user": 455.02,
+                        "system": 21.02
+                    }
+                }
+            ]
+        },
+        {
+            "data_hora": "2026-04-07T22:30:00",
+            "criticidade": "MODERADO",
+            "score": 66.045,
+            "latencia_ping_ms": 64,
+            "memoria_total_bytes_human": "16.00 GB",
+            "memoria_disponivel_bytes_human": "2.00 GB",
+            "disco_livre_bytes_human": "30.72 GB",
+            "disco_usado_bytes_human": "225.28 GB",
+            "taxa_leitura_disco_bytes_por_segundo_human": "1.78 MB",
+            "taxa_escrita_disco_bytes_por_segundo_human": "3.09 MB",
+            "taxa_download_rede_bytes_por_segundo_human": "23.45 MB",
+            "taxa_upload_rede_bytes_por_segundo_human": "5.44 MB",
+            "frequencia_cpu_atual_mhz_human": "3.12 GHz",
+            "frequencia_cpu_minima_mhz_human": "1.20 GHz",
+            "frequencia_cpu_maxima_mhz_human": "4.20 GHz",
+            "percentual_uso_cpu": 66.79,
+            "percentual_uso_ram": 87.5,
+            "percentual_uso_disco": 88.0,
+            "percentual_uso_swap": 10.79,
+            "processos": [
+                {
+                    "pid": 12004,
+                    "name": "RBC_telemetria_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 6.82,
+                    "memory_percent": 0.29,
+                    "num_threads": 16,
+                    "cmdline": [
+                        "RBC_telemetria_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_telemetria_1",
+                    "create_time": "2026-04-01T03:00:00",
+                    "memory_info": {
+                        "rss": 49972984,
+                        "vms": 62509865
+                    },
+                    "cpu_times": {
+                        "user": 276.58,
+                        "system": 65.7
+                    }
+                },
+                {
+                    "pid": 12006,
+                    "name": "RBC_monitor_saude_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 5.91,
+                    "memory_percent": 0.18,
+                    "num_threads": 19,
+                    "cmdline": [
+                        "RBC_monitor_saude_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_monitor_saude_1",
+                    "create_time": "2026-04-01T03:00:00",
+                    "memory_info": {
+                        "rss": 31128053,
+                        "vms": 53781265
+                    },
+                    "cpu_times": {
+                        "user": 47.24,
+                        "system": 14.44
+                    }
+                },
+                {
+                    "pid": 12699,
+                    "name": "RBC_telemetria_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 12.85,
+                    "memory_percent": 0.25,
+                    "num_threads": 21,
+                    "cmdline": [
+                        "RBC_telemetria_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_telemetria_2",
+                    "create_time": "2026-04-02T00:20:00",
+                    "memory_info": {
+                        "rss": 42820052,
+                        "vms": 52665281
+                    },
+                    "cpu_times": {
+                        "user": 468.05,
+                        "system": 5.94
+                    }
+                },
+                {
+                    "pid": 14498,
+                    "name": "RBC_gerente_sessao_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 7.04,
+                    "memory_percent": 0.36,
+                    "num_threads": 3,
+                    "cmdline": [
+                        "RBC_gerente_sessao_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerente_sessao_1",
+                    "create_time": "2026-04-05T08:40:00",
+                    "memory_info": {
+                        "rss": 62345838,
+                        "vms": 94513035
+                    },
+                    "cpu_times": {
+                        "user": 480.42,
+                        "system": 37.64
+                    }
+                },
+                {
+                    "pid": 14602,
+                    "name": "RBC_escritor_auditoria_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 9.48,
+                    "memory_percent": 0.47,
+                    "num_threads": 13,
+                    "cmdline": [
+                        "RBC_escritor_auditoria_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_escritor_auditoria_2",
+                    "create_time": "2026-04-06T03:00:00",
+                    "memory_info": {
+                        "rss": 81135520,
+                        "vms": 138118443
+                    },
+                    "cpu_times": {
+                        "user": 264.6,
+                        "system": 108.2
+                    }
+                },
+                {
+                    "pid": 14604,
+                    "name": "RBC_aquecedor_cache_1",
+                    "username": "rbc_analista",
+                    "status": "stopped",
+                    "cpu_percent": 0.0,
+                    "memory_percent": 1.13,
+                    "num_threads": 7,
+                    "cmdline": [
+                        "RBC_aquecedor_cache_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_aquecedor_cache_1",
+                    "create_time": "2026-04-06T03:00:00",
+                    "memory_info": {
+                        "rss": 193917248,
+                        "vms": 271519912
+                    },
+                    "cpu_times": {
+                        "user": 286.72,
+                        "system": 6.85
+                    }
+                },
+                {
+                    "pid": 15219,
+                    "name": "RBC_calculo_rota_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 36.4,
+                    "memory_percent": 0.77,
+                    "num_threads": 15,
+                    "cmdline": [
+                        "RBC_calculo_rota_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_calculo_rota_1",
+                    "create_time": "2026-04-06T23:50:00",
+                    "memory_info": {
+                        "rss": 133042023,
+                        "vms": 202432520
+                    },
+                    "cpu_times": {
+                        "user": 292.81,
+                        "system": 100.41
+                    }
+                },
+                {
+                    "pid": 15249,
+                    "name": "RBC_gerente_sessao_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 20.14,
+                    "memory_percent": 0.4,
+                    "num_threads": 16,
+                    "cmdline": [
+                        "RBC_gerente_sessao_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerente_sessao_2",
+                    "create_time": "2026-04-07T02:00:00",
+                    "memory_info": {
+                        "rss": 68900362,
+                        "vms": 123593087
+                    },
+                    "cpu_times": {
+                        "user": 203.95,
+                        "system": 67.61
+                    }
+                },
+                {
+                    "pid": 15329,
+                    "name": "RBC_despacho_notificacao_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 18.08,
+                    "memory_percent": 0.45,
+                    "num_threads": 22,
+                    "cmdline": [
+                        "RBC_despacho_notificacao_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_despacho_notificacao_1",
+                    "create_time": "2026-04-07T08:50:00",
+                    "memory_info": {
+                        "rss": 76506863,
+                        "vms": 111600354
+                    },
+                    "cpu_times": {
+                        "user": 155.75,
+                        "system": 90.61
+                    }
+                },
+                {
+                    "pid": 15330,
+                    "name": "RBC_despacho_notificacao_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 29.42,
+                    "memory_percent": 0.45,
+                    "num_threads": 9,
+                    "cmdline": [
+                        "RBC_despacho_notificacao_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_despacho_notificacao_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 77395442,
+                        "vms": 114995750
+                    },
+                    "cpu_times": {
+                        "user": 467.62,
+                        "system": 84.06
+                    }
+                },
+                {
+                    "pid": 15332,
+                    "name": "RBC_inferencia_ml_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 30.59,
+                    "memory_percent": 1.67,
+                    "num_threads": 3,
+                    "cmdline": [
+                        "RBC_inferencia_ml_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_inferencia_ml_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 286228104,
+                        "vms": 452182815
+                    },
+                    "cpu_times": {
+                        "user": 101.91,
+                        "system": 12.53
+                    }
+                },
+                {
+                    "pid": 15334,
+                    "name": "RBC_gerador_relatorio_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 13.5,
+                    "memory_percent": 0.76,
+                    "num_threads": 3,
+                    "cmdline": [
+                        "RBC_gerador_relatorio_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerador_relatorio_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 131344701,
+                        "vms": 190469847
+                    },
+                    "cpu_times": {
+                        "user": 338.29,
+                        "system": 75.8
+                    }
+                },
+                {
+                    "pid": 15900,
+                    "name": "RBC_calculo_rota_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 39.91,
+                    "memory_percent": 1.09,
+                    "num_threads": 23,
+                    "cmdline": [
+                        "RBC_calculo_rota_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_calculo_rota_2",
+                    "create_time": "2026-04-08T00:40:00",
+                    "memory_info": {
+                        "rss": 187599238,
+                        "vms": 277607021
+                    },
+                    "cpu_times": {
+                        "user": 327.86,
+                        "system": 94.31
+                    }
+                },
+                {
+                    "pid": 15905,
+                    "name": "RBC_monitor_saude_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 7.56,
+                    "memory_percent": 0.11,
+                    "num_threads": 21,
+                    "cmdline": [
+                        "RBC_monitor_saude_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_monitor_saude_2",
+                    "create_time": "2026-04-08T01:10:00",
+                    "memory_info": {
+                        "rss": 18540637,
+                        "vms": 28716778
+                    },
+                    "cpu_times": {
+                        "user": 203.28,
+                        "system": 63.29
+                    }
+                },
+                {
+                    "pid": 15908,
+                    "name": "RBC_escritor_auditoria_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 12.14,
+                    "memory_percent": 0.43,
+                    "num_threads": 1,
+                    "cmdline": [
+                        "RBC_escritor_auditoria_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_escritor_auditoria_1",
+                    "create_time": "2026-04-08T01:30:00",
+                    "memory_info": {
+                        "rss": 73277935,
+                        "vms": 131619295
+                    },
+                    "cpu_times": {
+                        "user": 339.32,
+                        "system": 54.0
+                    }
+                },
+                {
+                    "pid": 15909,
+                    "name": "RBC_trabalhador_link_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 28.73,
+                    "memory_percent": 0.76,
+                    "num_threads": 4,
+                    "cmdline": [
+                        "RBC_trabalhador_link_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_trabalhador_link_1",
+                    "create_time": "2026-04-08T01:30:00",
+                    "memory_info": {
+                        "rss": 131265444,
+                        "vms": 184742483
+                    },
+                    "cpu_times": {
+                        "user": 80.64,
+                        "system": 35.2
+                    }
+                },
+                {
+                    "pid": 15910,
+                    "name": "RBC_trabalhador_link_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 26.1,
+                    "memory_percent": 0.65,
+                    "num_threads": 6,
+                    "cmdline": [
+                        "RBC_trabalhador_link_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_trabalhador_link_2",
+                    "create_time": "2026-04-08T01:30:00",
+                    "memory_info": {
+                        "rss": 111281627,
+                        "vms": 137299964
+                    },
+                    "cpu_times": {
+                        "user": 82.28,
+                        "system": 88.97
+                    }
+                },
+                {
+                    "pid": 15911,
+                    "name": "RBC_aquecedor_cache_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 11.84,
+                    "memory_percent": 1.1,
+                    "num_threads": 9,
+                    "cmdline": [
+                        "RBC_aquecedor_cache_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_aquecedor_cache_2",
+                    "create_time": "2026-04-08T01:30:00",
+                    "memory_info": {
+                        "rss": 188766368,
+                        "vms": 323845310
+                    },
+                    "cpu_times": {
+                        "user": 106.51,
+                        "system": 29.02
+                    }
+                },
+                {
+                    "pid": 15912,
+                    "name": "RBC_sincronizacao_db_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 20.44,
+                    "memory_percent": 1.37,
+                    "num_threads": 24,
+                    "cmdline": [
+                        "RBC_sincronizacao_db_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_sincronizacao_db_1",
+                    "create_time": "2026-04-08T01:30:00",
+                    "memory_info": {
+                        "rss": 234769017,
+                        "vms": 335144240
+                    },
+                    "cpu_times": {
+                        "user": 64.88,
+                        "system": 29.99
+                    }
+                },
+                {
+                    "pid": 15913,
+                    "name": "RBC_sincronizacao_db_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 18.65,
+                    "memory_percent": 1.52,
+                    "num_threads": 7,
+                    "cmdline": [
+                        "RBC_sincronizacao_db_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_sincronizacao_db_2",
+                    "create_time": "2026-04-08T01:30:00",
+                    "memory_info": {
+                        "rss": 261009583,
+                        "vms": 426947656
+                    },
+                    "cpu_times": {
+                        "user": 219.45,
+                        "system": 17.55
+                    }
+                },
+                {
+                    "pid": 15914,
+                    "name": "RBC_inferencia_ml_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 53.53,
+                    "memory_percent": 1.31,
+                    "num_threads": 8,
+                    "cmdline": [
+                        "RBC_inferencia_ml_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_inferencia_ml_1",
+                    "create_time": "2026-04-08T01:30:00",
+                    "memory_info": {
+                        "rss": 225646841,
+                        "vms": 374010778
+                    },
+                    "cpu_times": {
+                        "user": 448.72,
+                        "system": 65.03
+                    }
+                },
+                {
+                    "pid": 15915,
+                    "name": "RBC_gerador_relatorio_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 14.37,
+                    "memory_percent": 0.69,
+                    "num_threads": 20,
+                    "cmdline": [
+                        "RBC_gerador_relatorio_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerador_relatorio_1",
+                    "create_time": "2026-04-08T01:30:00",
+                    "memory_info": {
+                        "rss": 119099457,
+                        "vms": 144065546
+                    },
+                    "cpu_times": {
+                        "user": 463.92,
+                        "system": 38.64
+                    }
+                },
+                {
+                    "pid": 15916,
+                    "name": "RBC_escaner_fraude_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 66.47,
+                    "memory_percent": 1.5,
+                    "num_threads": 1,
+                    "cmdline": [
+                        "RBC_escaner_fraude_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_escaner_fraude_1",
+                    "create_time": "2026-04-08T01:30:00",
+                    "memory_info": {
+                        "rss": 257369107,
+                        "vms": 446729319
+                    },
+                    "cpu_times": {
+                        "user": 429.94,
+                        "system": 34.32
+                    }
+                }
+            ]
+        },
+        {
+            "data_hora": "2026-04-07T22:40:00",
+            "criticidade": "MODERADO",
+            "score": 63.124,
+            "latencia_ping_ms": 75,
+            "memoria_total_bytes_human": "16.00 GB",
+            "memoria_disponivel_bytes_human": "2.00 GB",
+            "disco_livre_bytes_human": "30.72 GB",
+            "disco_usado_bytes_human": "225.28 GB",
+            "taxa_leitura_disco_bytes_por_segundo_human": "1.71 MB",
+            "taxa_escrita_disco_bytes_por_segundo_human": "2.50 MB",
+            "taxa_download_rede_bytes_por_segundo_human": "37.51 MB",
+            "taxa_upload_rede_bytes_por_segundo_human": "5.75 MB",
+            "frequencia_cpu_atual_mhz_human": "2.74 GHz",
+            "frequencia_cpu_minima_mhz_human": "1.20 GHz",
+            "frequencia_cpu_maxima_mhz_human": "4.20 GHz",
+            "percentual_uso_cpu": 56.54,
+            "percentual_uso_ram": 87.5,
+            "percentual_uso_disco": 88.0,
+            "percentual_uso_swap": 11.56,
+            "processos": [
+                {
+                    "pid": 12004,
+                    "name": "RBC_telemetria_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 8.44,
+                    "memory_percent": 0.23,
+                    "num_threads": 20,
+                    "cmdline": [
+                        "RBC_telemetria_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_telemetria_1",
+                    "create_time": "2026-04-01T03:00:00",
+                    "memory_info": {
+                        "rss": 38915671,
+                        "vms": 51672452
+                    },
+                    "cpu_times": {
+                        "user": 445.36,
+                        "system": 71.34
+                    }
+                },
+                {
+                    "pid": 12006,
+                    "name": "RBC_monitor_saude_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 6.83,
+                    "memory_percent": 0.16,
+                    "num_threads": 9,
+                    "cmdline": [
+                        "RBC_monitor_saude_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_monitor_saude_1",
+                    "create_time": "2026-04-01T03:00:00",
+                    "memory_info": {
+                        "rss": 28131112,
+                        "vms": 44476502
+                    },
+                    "cpu_times": {
+                        "user": 4.86,
+                        "system": 41.93
+                    }
+                },
+                {
+                    "pid": 12699,
+                    "name": "RBC_telemetria_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 10.49,
+                    "memory_percent": 0.28,
+                    "num_threads": 13,
+                    "cmdline": [
+                        "RBC_telemetria_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_telemetria_2",
+                    "create_time": "2026-04-02T00:20:00",
+                    "memory_info": {
+                        "rss": 48246097,
+                        "vms": 73106253
+                    },
+                    "cpu_times": {
+                        "user": 365.21,
+                        "system": 85.6
+                    }
+                },
+                {
+                    "pid": 14498,
+                    "name": "RBC_gerente_sessao_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 12.51,
+                    "memory_percent": 0.45,
+                    "num_threads": 19,
+                    "cmdline": [
+                        "RBC_gerente_sessao_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerente_sessao_1",
+                    "create_time": "2026-04-05T08:40:00",
+                    "memory_info": {
+                        "rss": 77086798,
+                        "vms": 116809135
+                    },
+                    "cpu_times": {
+                        "user": 422.42,
+                        "system": 21.24
+                    }
+                },
+                {
+                    "pid": 14602,
+                    "name": "RBC_escritor_auditoria_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 11.73,
+                    "memory_percent": 0.59,
+                    "num_threads": 6,
+                    "cmdline": [
+                        "RBC_escritor_auditoria_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_escritor_auditoria_2",
+                    "create_time": "2026-04-06T03:00:00",
+                    "memory_info": {
+                        "rss": 101005074,
+                        "vms": 128608193
+                    },
+                    "cpu_times": {
+                        "user": 487.76,
+                        "system": 77.43
+                    }
+                },
+                {
+                    "pid": 14604,
+                    "name": "RBC_aquecedor_cache_1",
+                    "username": "rbc_analista",
+                    "status": "stopped",
+                    "cpu_percent": 0.0,
+                    "memory_percent": 0.89,
+                    "num_threads": 2,
+                    "cmdline": [
+                        "RBC_aquecedor_cache_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_aquecedor_cache_1",
+                    "create_time": "2026-04-06T03:00:00",
+                    "memory_info": {
+                        "rss": 153538135,
+                        "vms": 192422387
+                    },
+                    "cpu_times": {
+                        "user": 261.84,
+                        "system": 1.3
+                    }
+                },
+                {
+                    "pid": 15219,
+                    "name": "RBC_calculo_rota_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 43.64,
+                    "memory_percent": 0.79,
+                    "num_threads": 5,
+                    "cmdline": [
+                        "RBC_calculo_rota_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_calculo_rota_1",
+                    "create_time": "2026-04-06T23:50:00",
+                    "memory_info": {
+                        "rss": 136468585,
+                        "vms": 179631080
+                    },
+                    "cpu_times": {
+                        "user": 395.32,
+                        "system": 76.07
+                    }
+                },
+                {
+                    "pid": 15249,
+                    "name": "RBC_gerente_sessao_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 7.28,
+                    "memory_percent": 0.42,
+                    "num_threads": 24,
+                    "cmdline": [
+                        "RBC_gerente_sessao_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerente_sessao_2",
+                    "create_time": "2026-04-07T02:00:00",
+                    "memory_info": {
+                        "rss": 71730176,
+                        "vms": 103818466
+                    },
+                    "cpu_times": {
+                        "user": 49.32,
+                        "system": 9.08
+                    }
+                },
+                {
+                    "pid": 15329,
+                    "name": "RBC_despacho_notificacao_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 17.38,
+                    "memory_percent": 0.46,
+                    "num_threads": 11,
+                    "cmdline": [
+                        "RBC_despacho_notificacao_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_despacho_notificacao_1",
+                    "create_time": "2026-04-07T08:50:00",
+                    "memory_info": {
+                        "rss": 78228991,
+                        "vms": 125961763
+                    },
+                    "cpu_times": {
+                        "user": 52.63,
+                        "system": 72.9
+                    }
+                },
+                {
+                    "pid": 15330,
+                    "name": "RBC_despacho_notificacao_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 22.35,
+                    "memory_percent": 0.35,
+                    "num_threads": 2,
+                    "cmdline": [
+                        "RBC_despacho_notificacao_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_despacho_notificacao_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 59746391,
+                        "vms": 85497581
+                    },
+                    "cpu_times": {
+                        "user": 6.11,
+                        "system": 54.32
+                    }
+                },
+                {
+                    "pid": 15332,
+                    "name": "RBC_inferencia_ml_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 50.18,
+                    "memory_percent": 1.75,
+                    "num_threads": 19,
+                    "cmdline": [
+                        "RBC_inferencia_ml_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_inferencia_ml_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 300568239,
+                        "vms": 515943567
+                    },
+                    "cpu_times": {
+                        "user": 216.06,
+                        "system": 37.18
+                    }
+                },
+                {
+                    "pid": 15334,
+                    "name": "RBC_gerador_relatorio_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 14.28,
+                    "memory_percent": 0.8,
+                    "num_threads": 3,
+                    "cmdline": [
+                        "RBC_gerador_relatorio_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerador_relatorio_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 137698781,
+                        "vms": 210287785
+                    },
+                    "cpu_times": {
+                        "user": 464.1,
+                        "system": 85.7
+                    }
+                },
+                {
+                    "pid": 15900,
+                    "name": "RBC_calculo_rota_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 46.47,
+                    "memory_percent": 1.18,
+                    "num_threads": 1,
+                    "cmdline": [
+                        "RBC_calculo_rota_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_calculo_rota_2",
+                    "create_time": "2026-04-08T00:40:00",
+                    "memory_info": {
+                        "rss": 203276028,
+                        "vms": 261510833
+                    },
+                    "cpu_times": {
+                        "user": 211.08,
+                        "system": 49.53
+                    }
+                },
+                {
+                    "pid": 15905,
+                    "name": "RBC_monitor_saude_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 4.92,
+                    "memory_percent": 0.13,
+                    "num_threads": 16,
+                    "cmdline": [
+                        "RBC_monitor_saude_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_monitor_saude_2",
+                    "create_time": "2026-04-08T01:10:00",
+                    "memory_info": {
+                        "rss": 22289395,
+                        "vms": 37815058
+                    },
+                    "cpu_times": {
+                        "user": 257.66,
+                        "system": 95.42
+                    }
+                },
+                {
+                    "pid": 15908,
+                    "name": "RBC_escritor_auditoria_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 10.87,
+                    "memory_percent": 0.46,
+                    "num_threads": 21,
+                    "cmdline": [
+                        "RBC_escritor_auditoria_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_escritor_auditoria_1",
+                    "create_time": "2026-04-08T01:30:00",
+                    "memory_info": {
+                        "rss": 78613955,
+                        "vms": 116424255
+                    },
+                    "cpu_times": {
+                        "user": 131.75,
+                        "system": 27.05
+                    }
+                },
+                {
+                    "pid": 15909,
+                    "name": "RBC_trabalhador_link_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 31.83,
+                    "memory_percent": 0.71,
+                    "num_threads": 24,
+                    "cmdline": [
+                        "RBC_trabalhador_link_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_trabalhador_link_1",
+                    "create_time": "2026-04-08T01:30:00",
+                    "memory_info": {
+                        "rss": 121381199,
+                        "vms": 147831468
+                    },
+                    "cpu_times": {
+                        "user": 243.33,
+                        "system": 43.87
+                    }
+                },
+                {
+                    "pid": 15910,
+                    "name": "RBC_trabalhador_link_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 27.69,
+                    "memory_percent": 0.75,
+                    "num_threads": 18,
+                    "cmdline": [
+                        "RBC_trabalhador_link_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_trabalhador_link_2",
+                    "create_time": "2026-04-08T01:30:00",
+                    "memory_info": {
+                        "rss": 129382813,
+                        "vms": 223236165
+                    },
+                    "cpu_times": {
+                        "user": 215.19,
+                        "system": 3.22
+                    }
+                },
+                {
+                    "pid": 15911,
+                    "name": "RBC_aquecedor_cache_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 19.3,
+                    "memory_percent": 0.91,
+                    "num_threads": 17,
+                    "cmdline": [
+                        "RBC_aquecedor_cache_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_aquecedor_cache_2",
+                    "create_time": "2026-04-08T01:30:00",
+                    "memory_info": {
+                        "rss": 157097781,
+                        "vms": 193321603
+                    },
+                    "cpu_times": {
+                        "user": 445.84,
+                        "system": 108.01
+                    }
+                },
+                {
+                    "pid": 15912,
+                    "name": "RBC_sincronizacao_db_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 15.17,
+                    "memory_percent": 1.62,
+                    "num_threads": 16,
+                    "cmdline": [
+                        "RBC_sincronizacao_db_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_sincronizacao_db_1",
+                    "create_time": "2026-04-08T01:30:00",
+                    "memory_info": {
+                        "rss": 277528170,
+                        "vms": 404114916
+                    },
+                    "cpu_times": {
+                        "user": 406.78,
+                        "system": 33.11
+                    }
+                },
+                {
+                    "pid": 15913,
+                    "name": "RBC_sincronizacao_db_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 14.88,
+                    "memory_percent": 1.49,
+                    "num_threads": 10,
+                    "cmdline": [
+                        "RBC_sincronizacao_db_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_sincronizacao_db_2",
+                    "create_time": "2026-04-08T01:30:00",
+                    "memory_info": {
+                        "rss": 256262306,
+                        "vms": 379494849
+                    },
+                    "cpu_times": {
+                        "user": 157.4,
+                        "system": 37.8
+                    }
+                },
+                {
+                    "pid": 15914,
+                    "name": "RBC_inferencia_ml_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 63.02,
+                    "memory_percent": 1.43,
+                    "num_threads": 19,
+                    "cmdline": [
+                        "RBC_inferencia_ml_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_inferencia_ml_1",
+                    "create_time": "2026-04-08T01:30:00",
+                    "memory_info": {
+                        "rss": 244881059,
+                        "vms": 411640977
+                    },
+                    "cpu_times": {
+                        "user": 413.51,
+                        "system": 71.71
+                    }
+                }
+            ]
+        },
+        {
+            "data_hora": "2026-04-07T22:50:00",
+            "criticidade": "MODERADO",
+            "score": 54.37,
+            "latencia_ping_ms": 88,
+            "memoria_total_bytes_human": "16.00 GB",
+            "memoria_disponivel_bytes_human": "2.67 GB",
+            "disco_livre_bytes_human": "30.72 GB",
+            "disco_usado_bytes_human": "225.28 GB",
+            "taxa_leitura_disco_bytes_por_segundo_human": "927.86 KB",
+            "taxa_escrita_disco_bytes_por_segundo_human": "1.33 MB",
+            "taxa_download_rede_bytes_por_segundo_human": "10.06 MB",
+            "taxa_upload_rede_bytes_por_segundo_human": "4.99 MB",
+            "frequencia_cpu_atual_mhz_human": "2.15 GHz",
+            "frequencia_cpu_minima_mhz_human": "1.20 GHz",
+            "frequencia_cpu_maxima_mhz_human": "4.20 GHz",
+            "percentual_uso_cpu": 34.94,
+            "percentual_uso_ram": 83.28,
+            "percentual_uso_disco": 88.0,
+            "percentual_uso_swap": 6.52,
+            "processos": [
+                {
+                    "pid": 12004,
+                    "name": "RBC_telemetria_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 11.04,
+                    "memory_percent": 0.3,
+                    "num_threads": 15,
+                    "cmdline": [
+                        "RBC_telemetria_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_telemetria_1",
+                    "create_time": "2026-04-01T03:00:00",
+                    "memory_info": {
+                        "rss": 51483859,
+                        "vms": 71432077
+                    },
+                    "cpu_times": {
+                        "user": 262.01,
+                        "system": 61.23
+                    }
+                },
+                {
+                    "pid": 12006,
+                    "name": "RBC_monitor_saude_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 8.07,
+                    "memory_percent": 0.13,
+                    "num_threads": 21,
+                    "cmdline": [
+                        "RBC_monitor_saude_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_monitor_saude_1",
+                    "create_time": "2026-04-01T03:00:00",
+                    "memory_info": {
+                        "rss": 22013485,
+                        "vms": 35243578
+                    },
+                    "cpu_times": {
+                        "user": 437.31,
+                        "system": 43.81
+                    }
+                },
+                {
+                    "pid": 12699,
+                    "name": "RBC_telemetria_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 9.82,
+                    "memory_percent": 0.3,
+                    "num_threads": 15,
+                    "cmdline": [
+                        "RBC_telemetria_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_telemetria_2",
+                    "create_time": "2026-04-02T00:20:00",
+                    "memory_info": {
+                        "rss": 51885632,
+                        "vms": 78012394
+                    },
+                    "cpu_times": {
+                        "user": 70.86,
+                        "system": 59.26
+                    }
+                },
+                {
+                    "pid": 14498,
+                    "name": "RBC_gerente_sessao_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 9.02,
+                    "memory_percent": 0.45,
+                    "num_threads": 21,
+                    "cmdline": [
+                        "RBC_gerente_sessao_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerente_sessao_1",
+                    "create_time": "2026-04-05T08:40:00",
+                    "memory_info": {
+                        "rss": 77178815,
+                        "vms": 120364587
+                    },
+                    "cpu_times": {
+                        "user": 2.34,
+                        "system": 62.72
+                    }
+                },
+                {
+                    "pid": 14602,
+                    "name": "RBC_escritor_auditoria_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 11.83,
+                    "memory_percent": 0.44,
+                    "num_threads": 20,
+                    "cmdline": [
+                        "RBC_escritor_auditoria_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_escritor_auditoria_2",
+                    "create_time": "2026-04-06T03:00:00",
+                    "memory_info": {
+                        "rss": 75293572,
+                        "vms": 94545987
+                    },
+                    "cpu_times": {
+                        "user": 86.38,
+                        "system": 94.69
+                    }
+                },
+                {
+                    "pid": 14604,
+                    "name": "RBC_aquecedor_cache_1",
+                    "username": "rbc_analista",
+                    "status": "stopped",
+                    "cpu_percent": 0.0,
+                    "memory_percent": 1.11,
+                    "num_threads": 1,
+                    "cmdline": [
+                        "RBC_aquecedor_cache_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_aquecedor_cache_1",
+                    "create_time": "2026-04-06T03:00:00",
+                    "memory_info": {
+                        "rss": 190435807,
+                        "vms": 283147890
+                    },
+                    "cpu_times": {
+                        "user": 327.53,
+                        "system": 59.01
+                    }
+                },
+                {
+                    "pid": 15219,
+                    "name": "RBC_calculo_rota_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 27.77,
+                    "memory_percent": 0.64,
+                    "num_threads": 1,
+                    "cmdline": [
+                        "RBC_calculo_rota_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_calculo_rota_1",
+                    "create_time": "2026-04-06T23:50:00",
+                    "memory_info": {
+                        "rss": 109415589,
+                        "vms": 180883756
+                    },
+                    "cpu_times": {
+                        "user": 136.76,
+                        "system": 72.47
+                    }
+                },
+                {
+                    "pid": 15249,
+                    "name": "RBC_gerente_sessao_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 13.42,
+                    "memory_percent": 0.47,
+                    "num_threads": 15,
+                    "cmdline": [
+                        "RBC_gerente_sessao_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerente_sessao_2",
+                    "create_time": "2026-04-07T02:00:00",
+                    "memory_info": {
+                        "rss": 80509662,
+                        "vms": 122528373
+                    },
+                    "cpu_times": {
+                        "user": 440.77,
+                        "system": 116.76
+                    }
+                },
+                {
+                    "pid": 15329,
+                    "name": "RBC_despacho_notificacao_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 13.32,
+                    "memory_percent": 0.45,
+                    "num_threads": 18,
+                    "cmdline": [
+                        "RBC_despacho_notificacao_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_despacho_notificacao_1",
+                    "create_time": "2026-04-07T08:50:00",
+                    "memory_info": {
+                        "rss": 76939942,
+                        "vms": 126827438
+                    },
+                    "cpu_times": {
+                        "user": 48.35,
+                        "system": 57.55
+                    }
+                },
+                {
+                    "pid": 15330,
+                    "name": "RBC_despacho_notificacao_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 16.93,
+                    "memory_percent": 0.48,
+                    "num_threads": 15,
+                    "cmdline": [
+                        "RBC_despacho_notificacao_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_despacho_notificacao_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 82535285,
+                        "vms": 118318974
+                    },
+                    "cpu_times": {
+                        "user": 123.05,
+                        "system": 24.14
+                    }
+                },
+                {
+                    "pid": 15332,
+                    "name": "RBC_inferencia_ml_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 63.37,
+                    "memory_percent": 1.59,
+                    "num_threads": 17,
+                    "cmdline": [
+                        "RBC_inferencia_ml_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_inferencia_ml_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 273587005,
+                        "vms": 470462689
+                    },
+                    "cpu_times": {
+                        "user": 80.85,
+                        "system": 108.24
+                    }
+                },
+                {
+                    "pid": 15334,
+                    "name": "RBC_gerador_relatorio_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 8.69,
+                    "memory_percent": 0.76,
+                    "num_threads": 5,
+                    "cmdline": [
+                        "RBC_gerador_relatorio_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerador_relatorio_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 131392954,
+                        "vms": 203240904
+                    },
+                    "cpu_times": {
+                        "user": 433.01,
+                        "system": 32.32
+                    }
+                },
+                {
+                    "pid": 15900,
+                    "name": "RBC_calculo_rota_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 24.53,
+                    "memory_percent": 0.99,
+                    "num_threads": 9,
+                    "cmdline": [
+                        "RBC_calculo_rota_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_calculo_rota_2",
+                    "create_time": "2026-04-08T00:40:00",
+                    "memory_info": {
+                        "rss": 170439392,
+                        "vms": 273114666
+                    },
+                    "cpu_times": {
+                        "user": 259.86,
+                        "system": 66.71
+                    }
+                },
+                {
+                    "pid": 15905,
+                    "name": "RBC_monitor_saude_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 7.93,
+                    "memory_percent": 0.11,
+                    "num_threads": 9,
+                    "cmdline": [
+                        "RBC_monitor_saude_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_monitor_saude_2",
+                    "create_time": "2026-04-08T01:10:00",
+                    "memory_info": {
+                        "rss": 19644004,
+                        "vms": 34276885
+                    },
+                    "cpu_times": {
+                        "user": 68.28,
+                        "system": 87.16
+                    }
+                }
+            ]
+        },
+        {
+            "data_hora": "2026-04-07T23:00:00",
+            "criticidade": "MODERADO",
+            "score": 67.83900000000001,
+            "latencia_ping_ms": 64,
+            "memoria_total_bytes_human": "16.00 GB",
+            "memoria_disponivel_bytes_human": "2.00 GB",
+            "disco_livre_bytes_human": "30.72 GB",
+            "disco_usado_bytes_human": "225.28 GB",
+            "taxa_leitura_disco_bytes_por_segundo_human": "1.88 MB",
+            "taxa_escrita_disco_bytes_por_segundo_human": "2.93 MB",
+            "taxa_download_rede_bytes_por_segundo_human": "27.85 MB",
+            "taxa_upload_rede_bytes_por_segundo_human": "8.41 MB",
+            "frequencia_cpu_atual_mhz_human": "3.32 GHz",
+            "frequencia_cpu_minima_mhz_human": "1.20 GHz",
+            "frequencia_cpu_maxima_mhz_human": "4.20 GHz",
+            "percentual_uso_cpu": 73.01,
+            "percentual_uso_ram": 87.5,
+            "percentual_uso_disco": 88.0,
+            "percentual_uso_swap": 10.43,
+            "processos": [
+                {
+                    "pid": 12004,
+                    "name": "RBC_telemetria_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 8.71,
+                    "memory_percent": 0.29,
+                    "num_threads": 15,
+                    "cmdline": [
+                        "RBC_telemetria_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_telemetria_1",
+                    "create_time": "2026-04-01T03:00:00",
+                    "memory_info": {
+                        "rss": 48980602,
+                        "vms": 70484156
+                    },
+                    "cpu_times": {
+                        "user": 184.37,
+                        "system": 93.11
+                    }
+                },
+                {
+                    "pid": 12006,
+                    "name": "RBC_monitor_saude_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 5.93,
+                    "memory_percent": 0.14,
+                    "num_threads": 15,
+                    "cmdline": [
+                        "RBC_monitor_saude_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_monitor_saude_1",
+                    "create_time": "2026-04-01T03:00:00",
+                    "memory_info": {
+                        "rss": 23482326,
+                        "vms": 29896709
+                    },
+                    "cpu_times": {
+                        "user": 435.03,
+                        "system": 102.54
+                    }
+                },
+                {
+                    "pid": 12699,
+                    "name": "RBC_telemetria_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 6.36,
+                    "memory_percent": 0.24,
+                    "num_threads": 7,
+                    "cmdline": [
+                        "RBC_telemetria_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_telemetria_2",
+                    "create_time": "2026-04-02T00:20:00",
+                    "memory_info": {
+                        "rss": 41349808,
+                        "vms": 61279256
+                    },
+                    "cpu_times": {
+                        "user": 268.68,
+                        "system": 42.44
+                    }
+                },
+                {
+                    "pid": 14498,
+                    "name": "RBC_gerente_sessao_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 10.11,
+                    "memory_percent": 0.41,
+                    "num_threads": 18,
+                    "cmdline": [
+                        "RBC_gerente_sessao_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerente_sessao_1",
+                    "create_time": "2026-04-05T08:40:00",
+                    "memory_info": {
+                        "rss": 70457142,
+                        "vms": 87470627
+                    },
+                    "cpu_times": {
+                        "user": 301.47,
+                        "system": 49.59
+                    }
+                },
+                {
+                    "pid": 14602,
+                    "name": "RBC_escritor_auditoria_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 8.03,
+                    "memory_percent": 0.6,
+                    "num_threads": 24,
+                    "cmdline": [
+                        "RBC_escritor_auditoria_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_escritor_auditoria_2",
+                    "create_time": "2026-04-06T03:00:00",
+                    "memory_info": {
+                        "rss": 102785333,
+                        "vms": 150779897
+                    },
+                    "cpu_times": {
+                        "user": 380.68,
+                        "system": 77.78
+                    }
+                },
+                {
+                    "pid": 14604,
+                    "name": "RBC_aquecedor_cache_1",
+                    "username": "rbc_analista",
+                    "status": "stopped",
+                    "cpu_percent": 0.0,
+                    "memory_percent": 1.02,
+                    "num_threads": 21,
+                    "cmdline": [
+                        "RBC_aquecedor_cache_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_aquecedor_cache_1",
+                    "create_time": "2026-04-06T03:00:00",
+                    "memory_info": {
+                        "rss": 174691525,
+                        "vms": 302181838
+                    },
+                    "cpu_times": {
+                        "user": 367.58,
+                        "system": 15.4
+                    }
+                },
+                {
+                    "pid": 15219,
+                    "name": "RBC_calculo_rota_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 47.09,
+                    "memory_percent": 0.65,
+                    "num_threads": 18,
+                    "cmdline": [
+                        "RBC_calculo_rota_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_calculo_rota_1",
+                    "create_time": "2026-04-06T23:50:00",
+                    "memory_info": {
+                        "rss": 111930614,
+                        "vms": 171893100
+                    },
+                    "cpu_times": {
+                        "user": 4.41,
+                        "system": 96.42
+                    }
+                },
+                {
+                    "pid": 15249,
+                    "name": "RBC_gerente_sessao_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 13.65,
+                    "memory_percent": 0.4,
+                    "num_threads": 4,
+                    "cmdline": [
+                        "RBC_gerente_sessao_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerente_sessao_2",
+                    "create_time": "2026-04-07T02:00:00",
+                    "memory_info": {
+                        "rss": 68504950,
+                        "vms": 122253406
+                    },
+                    "cpu_times": {
+                        "user": 153.09,
+                        "system": 79.11
+                    }
+                },
+                {
+                    "pid": 15329,
+                    "name": "RBC_despacho_notificacao_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 16.25,
+                    "memory_percent": 0.38,
+                    "num_threads": 10,
+                    "cmdline": [
+                        "RBC_despacho_notificacao_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_despacho_notificacao_1",
+                    "create_time": "2026-04-07T08:50:00",
+                    "memory_info": {
+                        "rss": 65415805,
+                        "vms": 87143946
+                    },
+                    "cpu_times": {
+                        "user": 89.02,
+                        "system": 85.4
+                    }
+                },
+                {
+                    "pid": 15330,
+                    "name": "RBC_despacho_notificacao_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 19.68,
+                    "memory_percent": 0.48,
+                    "num_threads": 16,
+                    "cmdline": [
+                        "RBC_despacho_notificacao_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_despacho_notificacao_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 82638755,
+                        "vms": 112308213
+                    },
+                    "cpu_times": {
+                        "user": 42.92,
+                        "system": 37.27
+                    }
+                },
+                {
+                    "pid": 15332,
+                    "name": "RBC_inferencia_ml_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 49.92,
+                    "memory_percent": 1.49,
+                    "num_threads": 10,
+                    "cmdline": [
+                        "RBC_inferencia_ml_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_inferencia_ml_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 255164412,
+                        "vms": 452969159
+                    },
+                    "cpu_times": {
+                        "user": 379.93,
+                        "system": 40.55
+                    }
+                },
+                {
+                    "pid": 15334,
+                    "name": "RBC_gerador_relatorio_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 15.86,
+                    "memory_percent": 0.96,
+                    "num_threads": 6,
+                    "cmdline": [
+                        "RBC_gerador_relatorio_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerador_relatorio_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 164434898,
+                        "vms": 284317004
+                    },
+                    "cpu_times": {
+                        "user": 20.38,
+                        "system": 76.08
+                    }
+                },
+                {
+                    "pid": 15900,
+                    "name": "RBC_calculo_rota_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 62.73,
+                    "memory_percent": 1.14,
+                    "num_threads": 23,
+                    "cmdline": [
+                        "RBC_calculo_rota_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_calculo_rota_2",
+                    "create_time": "2026-04-08T00:40:00",
+                    "memory_info": {
+                        "rss": 195982238,
+                        "vms": 347992385
+                    },
+                    "cpu_times": {
+                        "user": 300.03,
+                        "system": 9.1
+                    }
+                },
+                {
+                    "pid": 15905,
+                    "name": "RBC_monitor_saude_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 5.61,
+                    "memory_percent": 0.14,
+                    "num_threads": 16,
+                    "cmdline": [
+                        "RBC_monitor_saude_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_monitor_saude_2",
+                    "create_time": "2026-04-08T01:10:00",
+                    "memory_info": {
+                        "rss": 23883513,
+                        "vms": 32169421
+                    },
+                    "cpu_times": {
+                        "user": 471.67,
+                        "system": 5.64
+                    }
+                },
+                {
+                    "pid": 15917,
+                    "name": "RBC_escritor_auditoria_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 12.3,
+                    "memory_percent": 0.5,
+                    "num_threads": 24,
+                    "cmdline": [
+                        "RBC_escritor_auditoria_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_escritor_auditoria_1",
+                    "create_time": "2026-04-08T02:00:00",
+                    "memory_info": {
+                        "rss": 85716577,
+                        "vms": 117333741
+                    },
+                    "cpu_times": {
+                        "user": 394.89,
+                        "system": 83.44
+                    }
+                },
+                {
+                    "pid": 15918,
+                    "name": "RBC_trabalhador_link_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 27.56,
+                    "memory_percent": 0.68,
+                    "num_threads": 11,
+                    "cmdline": [
+                        "RBC_trabalhador_link_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_trabalhador_link_1",
+                    "create_time": "2026-04-08T02:00:00",
+                    "memory_info": {
+                        "rss": 116302462,
+                        "vms": 149804975
+                    },
+                    "cpu_times": {
+                        "user": 220.3,
+                        "system": 18.52
+                    }
+                },
+                {
+                    "pid": 15919,
+                    "name": "RBC_trabalhador_link_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 28.07,
+                    "memory_percent": 0.86,
+                    "num_threads": 17,
+                    "cmdline": [
+                        "RBC_trabalhador_link_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_trabalhador_link_2",
+                    "create_time": "2026-04-08T02:00:00",
+                    "memory_info": {
+                        "rss": 148586030,
+                        "vms": 231400630
+                    },
+                    "cpu_times": {
+                        "user": 349.3,
+                        "system": 103.01
+                    }
+                },
+                {
+                    "pid": 15920,
+                    "name": "RBC_aquecedor_cache_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 22.74,
+                    "memory_percent": 0.92,
+                    "num_threads": 5,
+                    "cmdline": [
+                        "RBC_aquecedor_cache_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_aquecedor_cache_2",
+                    "create_time": "2026-04-08T02:00:00",
+                    "memory_info": {
+                        "rss": 158080663,
+                        "vms": 240137807
+                    },
+                    "cpu_times": {
+                        "user": 397.28,
+                        "system": 80.8
+                    }
+                },
+                {
+                    "pid": 15921,
+                    "name": "RBC_sincronizacao_db_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 17.29,
+                    "memory_percent": 1.39,
+                    "num_threads": 1,
+                    "cmdline": [
+                        "RBC_sincronizacao_db_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_sincronizacao_db_1",
+                    "create_time": "2026-04-08T02:00:00",
+                    "memory_info": {
+                        "rss": 238823990,
+                        "vms": 306340054
+                    },
+                    "cpu_times": {
+                        "user": 295.05,
+                        "system": 105.45
+                    }
+                },
+                {
+                    "pid": 15922,
+                    "name": "RBC_sincronizacao_db_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 19.99,
+                    "memory_percent": 1.32,
+                    "num_threads": 22,
+                    "cmdline": [
+                        "RBC_sincronizacao_db_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_sincronizacao_db_2",
+                    "create_time": "2026-04-08T02:00:00",
+                    "memory_info": {
+                        "rss": 227232644,
+                        "vms": 370854405
+                    },
+                    "cpu_times": {
+                        "user": 293.66,
+                        "system": 18.77
+                    }
+                },
+                {
+                    "pid": 15923,
+                    "name": "RBC_inferencia_ml_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 56.8,
+                    "memory_percent": 1.19,
+                    "num_threads": 21,
+                    "cmdline": [
+                        "RBC_inferencia_ml_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_inferencia_ml_1",
+                    "create_time": "2026-04-08T02:00:00",
+                    "memory_info": {
+                        "rss": 203726009,
+                        "vms": 260986164
+                    },
+                    "cpu_times": {
+                        "user": 493.79,
+                        "system": 103.66
+                    }
+                },
+                {
+                    "pid": 15924,
+                    "name": "RBC_gerador_relatorio_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 17.9,
+                    "memory_percent": 0.85,
+                    "num_threads": 21,
+                    "cmdline": [
+                        "RBC_gerador_relatorio_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerador_relatorio_1",
+                    "create_time": "2026-04-08T02:00:00",
+                    "memory_info": {
+                        "rss": 145717080,
+                        "vms": 249595022
+                    },
+                    "cpu_times": {
+                        "user": 195.97,
+                        "system": 50.78
+                    }
+                },
+                {
+                    "pid": 15925,
+                    "name": "RBC_escaner_fraude_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 47.34,
+                    "memory_percent": 1.11,
+                    "num_threads": 20,
+                    "cmdline": [
+                        "RBC_escaner_fraude_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_escaner_fraude_1",
+                    "create_time": "2026-04-08T02:00:00",
+                    "memory_info": {
+                        "rss": 190738741,
+                        "vms": 336682204
+                    },
+                    "cpu_times": {
+                        "user": 365.7,
+                        "system": 66.87
+                    }
+                }
+            ]
+        },
+        {
+            "data_hora": "2026-04-07T23:10:00",
+            "criticidade": "MODERADO",
+            "score": 61.577,
+            "latencia_ping_ms": 64,
+            "memoria_total_bytes_human": "16.00 GB",
+            "memoria_disponivel_bytes_human": "2.04 GB",
+            "disco_livre_bytes_human": "30.72 GB",
+            "disco_usado_bytes_human": "225.28 GB",
+            "taxa_leitura_disco_bytes_por_segundo_human": "1.19 MB",
+            "taxa_escrita_disco_bytes_por_segundo_human": "2.10 MB",
+            "taxa_download_rede_bytes_por_segundo_human": "17.60 MB",
+            "taxa_upload_rede_bytes_por_segundo_human": "3.22 MB",
+            "frequencia_cpu_atual_mhz_human": "2.76 GHz",
+            "frequencia_cpu_minima_mhz_human": "1.20 GHz",
+            "frequencia_cpu_maxima_mhz_human": "4.20 GHz",
+            "percentual_uso_cpu": 52.18,
+            "percentual_uso_ram": 87.27,
+            "percentual_uso_disco": 88.0,
+            "percentual_uso_swap": 10.71,
+            "processos": [
+                {
+                    "pid": 12004,
+                    "name": "RBC_telemetria_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 11.77,
+                    "memory_percent": 0.23,
+                    "num_threads": 8,
+                    "cmdline": [
+                        "RBC_telemetria_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_telemetria_1",
+                    "create_time": "2026-04-01T03:00:00",
+                    "memory_info": {
+                        "rss": 39825473,
+                        "vms": 50268267
+                    },
+                    "cpu_times": {
+                        "user": 392.68,
+                        "system": 110.45
+                    }
+                },
+                {
+                    "pid": 12006,
+                    "name": "RBC_monitor_saude_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 7.78,
+                    "memory_percent": 0.15,
+                    "num_threads": 21,
+                    "cmdline": [
+                        "RBC_monitor_saude_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_monitor_saude_1",
+                    "create_time": "2026-04-01T03:00:00",
+                    "memory_info": {
+                        "rss": 25667515,
+                        "vms": 33831610
+                    },
+                    "cpu_times": {
+                        "user": 383.21,
+                        "system": 48.18
+                    }
+                },
+                {
+                    "pid": 12699,
+                    "name": "RBC_telemetria_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 11.61,
+                    "memory_percent": 0.29,
+                    "num_threads": 7,
+                    "cmdline": [
+                        "RBC_telemetria_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_telemetria_2",
+                    "create_time": "2026-04-02T00:20:00",
+                    "memory_info": {
+                        "rss": 50652182,
+                        "vms": 64220737
+                    },
+                    "cpu_times": {
+                        "user": 78.05,
+                        "system": 60.6
+                    }
+                },
+                {
+                    "pid": 14498,
+                    "name": "RBC_gerente_sessao_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 7.32,
+                    "memory_percent": 0.34,
+                    "num_threads": 11,
+                    "cmdline": [
+                        "RBC_gerente_sessao_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerente_sessao_1",
+                    "create_time": "2026-04-05T08:40:00",
+                    "memory_info": {
+                        "rss": 58613364,
+                        "vms": 80293023
+                    },
+                    "cpu_times": {
+                        "user": 370.73,
+                        "system": 113.62
+                    }
+                },
+                {
+                    "pid": 14602,
+                    "name": "RBC_escritor_auditoria_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 8.95,
+                    "memory_percent": 0.51,
+                    "num_threads": 9,
+                    "cmdline": [
+                        "RBC_escritor_auditoria_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_escritor_auditoria_2",
+                    "create_time": "2026-04-06T03:00:00",
+                    "memory_info": {
+                        "rss": 86838241,
+                        "vms": 123919297
+                    },
+                    "cpu_times": {
+                        "user": 153.45,
+                        "system": 68.73
+                    }
+                },
+                {
+                    "pid": 14604,
+                    "name": "RBC_aquecedor_cache_1",
+                    "username": "rbc_analista",
+                    "status": "stopped",
+                    "cpu_percent": 0.0,
+                    "memory_percent": 0.87,
+                    "num_threads": 8,
+                    "cmdline": [
+                        "RBC_aquecedor_cache_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_aquecedor_cache_1",
+                    "create_time": "2026-04-06T03:00:00",
+                    "memory_info": {
+                        "rss": 148650109,
+                        "vms": 232691952
+                    },
+                    "cpu_times": {
+                        "user": 426.18,
+                        "system": 8.39
+                    }
+                },
+                {
+                    "pid": 15219,
+                    "name": "RBC_calculo_rota_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 36.06,
+                    "memory_percent": 0.61,
+                    "num_threads": 1,
+                    "cmdline": [
+                        "RBC_calculo_rota_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_calculo_rota_1",
+                    "create_time": "2026-04-06T23:50:00",
+                    "memory_info": {
+                        "rss": 104162694,
+                        "vms": 133350807
+                    },
+                    "cpu_times": {
+                        "user": 381.13,
+                        "system": 107.94
+                    }
+                },
+                {
+                    "pid": 15249,
+                    "name": "RBC_gerente_sessao_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 13.73,
+                    "memory_percent": 0.48,
+                    "num_threads": 14,
+                    "cmdline": [
+                        "RBC_gerente_sessao_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerente_sessao_2",
+                    "create_time": "2026-04-07T02:00:00",
+                    "memory_info": {
+                        "rss": 82766815,
+                        "vms": 133001569
+                    },
+                    "cpu_times": {
+                        "user": 448.45,
+                        "system": 47.33
+                    }
+                },
+                {
+                    "pid": 15329,
+                    "name": "RBC_despacho_notificacao_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 24.49,
+                    "memory_percent": 0.45,
+                    "num_threads": 16,
+                    "cmdline": [
+                        "RBC_despacho_notificacao_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_despacho_notificacao_1",
+                    "create_time": "2026-04-07T08:50:00",
+                    "memory_info": {
+                        "rss": 77404310,
+                        "vms": 98741611
+                    },
+                    "cpu_times": {
+                        "user": 481.08,
+                        "system": 53.35
+                    }
+                },
+                {
+                    "pid": 15330,
+                    "name": "RBC_despacho_notificacao_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 24.44,
+                    "memory_percent": 0.36,
+                    "num_threads": 16,
+                    "cmdline": [
+                        "RBC_despacho_notificacao_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_despacho_notificacao_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 62241394,
+                        "vms": 102492188
+                    },
+                    "cpu_times": {
+                        "user": 242.07,
+                        "system": 64.06
+                    }
+                },
+                {
+                    "pid": 15332,
+                    "name": "RBC_inferencia_ml_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 75.9,
+                    "memory_percent": 1.26,
+                    "num_threads": 11,
+                    "cmdline": [
+                        "RBC_inferencia_ml_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_inferencia_ml_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 216841432,
+                        "vms": 376373387
+                    },
+                    "cpu_times": {
+                        "user": 384.86,
+                        "system": 58.01
+                    }
+                },
+                {
+                    "pid": 15334,
+                    "name": "RBC_gerador_relatorio_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 11.25,
+                    "memory_percent": 1.01,
+                    "num_threads": 23,
+                    "cmdline": [
+                        "RBC_gerador_relatorio_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerador_relatorio_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 173802076,
+                        "vms": 297891853
+                    },
+                    "cpu_times": {
+                        "user": 441.19,
+                        "system": 82.36
+                    }
+                },
+                {
+                    "pid": 15900,
+                    "name": "RBC_calculo_rota_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 45.32,
+                    "memory_percent": 0.98,
+                    "num_threads": 2,
+                    "cmdline": [
+                        "RBC_calculo_rota_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_calculo_rota_2",
+                    "create_time": "2026-04-08T00:40:00",
+                    "memory_info": {
+                        "rss": 168577597,
+                        "vms": 294177723
+                    },
+                    "cpu_times": {
+                        "user": 103.19,
+                        "system": 4.54
+                    }
+                },
+                {
+                    "pid": 15905,
+                    "name": "RBC_monitor_saude_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 7.49,
+                    "memory_percent": 0.15,
+                    "num_threads": 1,
+                    "cmdline": [
+                        "RBC_monitor_saude_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_monitor_saude_2",
+                    "create_time": "2026-04-08T01:10:00",
+                    "memory_info": {
+                        "rss": 25075989,
+                        "vms": 40142467
+                    },
+                    "cpu_times": {
+                        "user": 240.26,
+                        "system": 15.46
+                    }
+                },
+                {
+                    "pid": 15917,
+                    "name": "RBC_escritor_auditoria_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 16.87,
+                    "memory_percent": 0.53,
+                    "num_threads": 15,
+                    "cmdline": [
+                        "RBC_escritor_auditoria_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_escritor_auditoria_1",
+                    "create_time": "2026-04-08T02:00:00",
+                    "memory_info": {
+                        "rss": 91523698,
+                        "vms": 133586430
+                    },
+                    "cpu_times": {
+                        "user": 485.82,
+                        "system": 106.75
+                    }
+                },
+                {
+                    "pid": 15918,
+                    "name": "RBC_trabalhador_link_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 31.97,
+                    "memory_percent": 0.76,
+                    "num_threads": 13,
+                    "cmdline": [
+                        "RBC_trabalhador_link_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_trabalhador_link_1",
+                    "create_time": "2026-04-08T02:00:00",
+                    "memory_info": {
+                        "rss": 129946243,
+                        "vms": 181404136
+                    },
+                    "cpu_times": {
+                        "user": 54.66,
+                        "system": 86.57
+                    }
+                },
+                {
+                    "pid": 15919,
+                    "name": "RBC_trabalhador_link_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 29.16,
+                    "memory_percent": 0.75,
+                    "num_threads": 20,
+                    "cmdline": [
+                        "RBC_trabalhador_link_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_trabalhador_link_2",
+                    "create_time": "2026-04-08T02:00:00",
+                    "memory_info": {
+                        "rss": 128089495,
+                        "vms": 168021422
+                    },
+                    "cpu_times": {
+                        "user": 415.93,
+                        "system": 49.52
+                    }
+                },
+                {
+                    "pid": 15920,
+                    "name": "RBC_aquecedor_cache_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 17.01,
+                    "memory_percent": 1.14,
+                    "num_threads": 15,
+                    "cmdline": [
+                        "RBC_aquecedor_cache_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_aquecedor_cache_2",
+                    "create_time": "2026-04-08T02:00:00",
+                    "memory_info": {
+                        "rss": 196039446,
+                        "vms": 313426148
+                    },
+                    "cpu_times": {
+                        "user": 89.11,
+                        "system": 111.11
+                    }
+                }
+            ]
+        },
+        {
+            "data_hora": "2026-04-07T23:20:00",
+            "criticidade": "MODERADO",
+            "score": 66.104,
+            "latencia_ping_ms": 67,
+            "memoria_total_bytes_human": "16.00 GB",
+            "memoria_disponivel_bytes_human": "2.00 GB",
+            "disco_livre_bytes_human": "30.72 GB",
+            "disco_usado_bytes_human": "225.28 GB",
+            "taxa_leitura_disco_bytes_por_segundo_human": "1.28 MB",
+            "taxa_escrita_disco_bytes_por_segundo_human": "2.16 MB",
+            "taxa_download_rede_bytes_por_segundo_human": "20.48 MB",
+            "taxa_upload_rede_bytes_por_segundo_human": "2.49 MB",
+            "frequencia_cpu_atual_mhz_human": "3.00 GHz",
+            "frequencia_cpu_minima_mhz_human": "1.20 GHz",
+            "frequencia_cpu_maxima_mhz_human": "4.20 GHz",
+            "percentual_uso_cpu": 67.66,
+            "percentual_uso_ram": 87.5,
+            "percentual_uso_disco": 88.0,
+            "percentual_uso_swap": 9.78,
+            "processos": [
+                {
+                    "pid": 12004,
+                    "name": "RBC_telemetria_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 12.17,
+                    "memory_percent": 0.26,
+                    "num_threads": 17,
+                    "cmdline": [
+                        "RBC_telemetria_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_telemetria_1",
+                    "create_time": "2026-04-01T03:00:00",
+                    "memory_info": {
+                        "rss": 44777152,
+                        "vms": 60925577
+                    },
+                    "cpu_times": {
+                        "user": 92.18,
+                        "system": 40.98
+                    }
+                },
+                {
+                    "pid": 12006,
+                    "name": "RBC_monitor_saude_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 6.49,
+                    "memory_percent": 0.13,
+                    "num_threads": 11,
+                    "cmdline": [
+                        "RBC_monitor_saude_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_monitor_saude_1",
+                    "create_time": "2026-04-01T03:00:00",
+                    "memory_info": {
+                        "rss": 21767350,
+                        "vms": 27697876
+                    },
+                    "cpu_times": {
+                        "user": 322.58,
+                        "system": 15.8
+                    }
+                },
+                {
+                    "pid": 12699,
+                    "name": "RBC_telemetria_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 7.97,
+                    "memory_percent": 0.27,
+                    "num_threads": 24,
+                    "cmdline": [
+                        "RBC_telemetria_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_telemetria_2",
+                    "create_time": "2026-04-02T00:20:00",
+                    "memory_info": {
+                        "rss": 45931853,
+                        "vms": 61146662
+                    },
+                    "cpu_times": {
+                        "user": 118.89,
+                        "system": 67.42
+                    }
+                },
+                {
+                    "pid": 14498,
+                    "name": "RBC_gerente_sessao_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 9.53,
+                    "memory_percent": 0.4,
+                    "num_threads": 12,
+                    "cmdline": [
+                        "RBC_gerente_sessao_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerente_sessao_1",
+                    "create_time": "2026-04-05T08:40:00",
+                    "memory_info": {
+                        "rss": 68016482,
+                        "vms": 89387900
+                    },
+                    "cpu_times": {
+                        "user": 28.15,
+                        "system": 60.97
+                    }
+                },
+                {
+                    "pid": 14602,
+                    "name": "RBC_escritor_auditoria_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 14.09,
+                    "memory_percent": 0.58,
+                    "num_threads": 15,
+                    "cmdline": [
+                        "RBC_escritor_auditoria_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_escritor_auditoria_2",
+                    "create_time": "2026-04-06T03:00:00",
+                    "memory_info": {
+                        "rss": 99834444,
+                        "vms": 154852174
+                    },
+                    "cpu_times": {
+                        "user": 313.1,
+                        "system": 50.03
+                    }
+                },
+                {
+                    "pid": 14604,
+                    "name": "RBC_aquecedor_cache_1",
+                    "username": "rbc_analista",
+                    "status": "stopped",
+                    "cpu_percent": 0.0,
+                    "memory_percent": 0.98,
+                    "num_threads": 12,
+                    "cmdline": [
+                        "RBC_aquecedor_cache_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_aquecedor_cache_1",
+                    "create_time": "2026-04-06T03:00:00",
+                    "memory_info": {
+                        "rss": 168575751,
+                        "vms": 239123444
+                    },
+                    "cpu_times": {
+                        "user": 163.5,
+                        "system": 7.78
+                    }
+                },
+                {
+                    "pid": 15219,
+                    "name": "RBC_calculo_rota_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 37.94,
+                    "memory_percent": 0.83,
+                    "num_threads": 24,
+                    "cmdline": [
+                        "RBC_calculo_rota_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_calculo_rota_1",
+                    "create_time": "2026-04-06T23:50:00",
+                    "memory_info": {
+                        "rss": 142584075,
+                        "vms": 181258539
+                    },
+                    "cpu_times": {
+                        "user": 201.67,
+                        "system": 71.35
+                    }
+                },
+                {
+                    "pid": 15249,
+                    "name": "RBC_gerente_sessao_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 11.45,
+                    "memory_percent": 0.45,
+                    "num_threads": 12,
+                    "cmdline": [
+                        "RBC_gerente_sessao_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerente_sessao_2",
+                    "create_time": "2026-04-07T02:00:00",
+                    "memory_info": {
+                        "rss": 76874668,
+                        "vms": 118546319
+                    },
+                    "cpu_times": {
+                        "user": 369.91,
+                        "system": 69.25
+                    }
+                },
+                {
+                    "pid": 15329,
+                    "name": "RBC_despacho_notificacao_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 23.92,
+                    "memory_percent": 0.45,
+                    "num_threads": 2,
+                    "cmdline": [
+                        "RBC_despacho_notificacao_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_despacho_notificacao_1",
+                    "create_time": "2026-04-07T08:50:00",
+                    "memory_info": {
+                        "rss": 77674045,
+                        "vms": 95691760
+                    },
+                    "cpu_times": {
+                        "user": 254.42,
+                        "system": 43.84
+                    }
+                },
+                {
+                    "pid": 15330,
+                    "name": "RBC_despacho_notificacao_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 16.56,
+                    "memory_percent": 0.49,
+                    "num_threads": 10,
+                    "cmdline": [
+                        "RBC_despacho_notificacao_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_despacho_notificacao_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 83979886,
+                        "vms": 120208945
+                    },
+                    "cpu_times": {
+                        "user": 230.35,
+                        "system": 6.56
+                    }
+                },
+                {
+                    "pid": 15332,
+                    "name": "RBC_inferencia_ml_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 88.81,
+                    "memory_percent": 1.59,
+                    "num_threads": 22,
+                    "cmdline": [
+                        "RBC_inferencia_ml_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_inferencia_ml_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 273994648,
+                        "vms": 444527117
+                    },
+                    "cpu_times": {
+                        "user": 447.6,
+                        "system": 99.61
+                    }
+                },
+                {
+                    "pid": 15334,
+                    "name": "RBC_gerador_relatorio_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 12.95,
+                    "memory_percent": 1.0,
+                    "num_threads": 22,
+                    "cmdline": [
+                        "RBC_gerador_relatorio_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerador_relatorio_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 171533693,
+                        "vms": 306349846
+                    },
+                    "cpu_times": {
+                        "user": 133.43,
+                        "system": 64.26
+                    }
+                },
+                {
+                    "pid": 15900,
+                    "name": "RBC_calculo_rota_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 47.33,
+                    "memory_percent": 0.88,
+                    "num_threads": 23,
+                    "cmdline": [
+                        "RBC_calculo_rota_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_calculo_rota_2",
+                    "create_time": "2026-04-08T00:40:00",
+                    "memory_info": {
+                        "rss": 151182109,
+                        "vms": 225612481
+                    },
+                    "cpu_times": {
+                        "user": 154.72,
+                        "system": 20.17
+                    }
+                },
+                {
+                    "pid": 15905,
+                    "name": "RBC_monitor_saude_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 4.24,
+                    "memory_percent": 0.14,
+                    "num_threads": 16,
+                    "cmdline": [
+                        "RBC_monitor_saude_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_monitor_saude_2",
+                    "create_time": "2026-04-08T01:10:00",
+                    "memory_info": {
+                        "rss": 24444546,
+                        "vms": 30148880
+                    },
+                    "cpu_times": {
+                        "user": 70.77,
+                        "system": 107.76
+                    }
+                },
+                {
+                    "pid": 15917,
+                    "name": "RBC_escritor_auditoria_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 10.73,
+                    "memory_percent": 0.43,
+                    "num_threads": 11,
+                    "cmdline": [
+                        "RBC_escritor_auditoria_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_escritor_auditoria_1",
+                    "create_time": "2026-04-08T02:00:00",
+                    "memory_info": {
+                        "rss": 73118068,
+                        "vms": 108753231
+                    },
+                    "cpu_times": {
+                        "user": 329.84,
+                        "system": 53.11
+                    }
+                },
+                {
+                    "pid": 15918,
+                    "name": "RBC_trabalhador_link_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 34.01,
+                    "memory_percent": 0.67,
+                    "num_threads": 14,
+                    "cmdline": [
+                        "RBC_trabalhador_link_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_trabalhador_link_1",
+                    "create_time": "2026-04-08T02:00:00",
+                    "memory_info": {
+                        "rss": 114327976,
+                        "vms": 140386271
+                    },
+                    "cpu_times": {
+                        "user": 344.1,
+                        "system": 18.59
+                    }
+                },
+                {
+                    "pid": 15919,
+                    "name": "RBC_trabalhador_link_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 35.17,
+                    "memory_percent": 0.9,
+                    "num_threads": 20,
+                    "cmdline": [
+                        "RBC_trabalhador_link_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_trabalhador_link_2",
+                    "create_time": "2026-04-08T02:00:00",
+                    "memory_info": {
+                        "rss": 154385935,
+                        "vms": 202012961
+                    },
+                    "cpu_times": {
+                        "user": 148.97,
+                        "system": 101.63
+                    }
+                },
+                {
+                    "pid": 15920,
+                    "name": "RBC_aquecedor_cache_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 22.22,
+                    "memory_percent": 0.89,
+                    "num_threads": 21,
+                    "cmdline": [
+                        "RBC_aquecedor_cache_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_aquecedor_cache_2",
+                    "create_time": "2026-04-08T02:00:00",
+                    "memory_info": {
+                        "rss": 153596274,
+                        "vms": 190289917
+                    },
+                    "cpu_times": {
+                        "user": 285.32,
+                        "system": 106.4
+                    }
+                },
+                {
+                    "pid": 15926,
+                    "name": "RBC_sincronizacao_db_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 17.9,
+                    "memory_percent": 1.37,
+                    "num_threads": 23,
+                    "cmdline": [
+                        "RBC_sincronizacao_db_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_sincronizacao_db_1",
+                    "create_time": "2026-04-08T02:20:00",
+                    "memory_info": {
+                        "rss": 236090843,
+                        "vms": 343572131
+                    },
+                    "cpu_times": {
+                        "user": 368.98,
+                        "system": 101.7
+                    }
+                },
+                {
+                    "pid": 15927,
+                    "name": "RBC_sincronizacao_db_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 16.1,
+                    "memory_percent": 1.34,
+                    "num_threads": 17,
+                    "cmdline": [
+                        "RBC_sincronizacao_db_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_sincronizacao_db_2",
+                    "create_time": "2026-04-08T02:20:00",
+                    "memory_info": {
+                        "rss": 229881937,
+                        "vms": 406787241
+                    },
+                    "cpu_times": {
+                        "user": 140.63,
+                        "system": 76.57
+                    }
+                },
+                {
+                    "pid": 15928,
+                    "name": "RBC_inferencia_ml_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 56.21,
+                    "memory_percent": 1.25,
+                    "num_threads": 24,
+                    "cmdline": [
+                        "RBC_inferencia_ml_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_inferencia_ml_1",
+                    "create_time": "2026-04-08T02:20:00",
+                    "memory_info": {
+                        "rss": 213971335,
+                        "vms": 288730567
+                    },
+                    "cpu_times": {
+                        "user": 135.14,
+                        "system": 91.98
+                    }
+                }
+            ]
+        },
+        {
+            "data_hora": "2026-04-07T23:30:00",
+            "criticidade": "MODERADO",
+            "score": 54.675000000000004,
+            "latencia_ping_ms": 67,
+            "memoria_total_bytes_human": "16.00 GB",
+            "memoria_disponivel_bytes_human": "2.27 GB",
+            "disco_livre_bytes_human": "30.72 GB",
+            "disco_usado_bytes_human": "225.28 GB",
+            "taxa_leitura_disco_bytes_por_segundo_human": "728.05 KB",
+            "taxa_escrita_disco_bytes_por_segundo_human": "1.25 MB",
+            "taxa_download_rede_bytes_por_segundo_human": "9.84 MB",
+            "taxa_upload_rede_bytes_por_segundo_human": "5.59 MB",
+            "frequencia_cpu_atual_mhz_human": "2.13 GHz",
+            "frequencia_cpu_minima_mhz_human": "1.20 GHz",
+            "frequencia_cpu_maxima_mhz_human": "4.20 GHz",
+            "percentual_uso_cpu": 31.78,
+            "percentual_uso_ram": 85.81,
+            "percentual_uso_disco": 88.0,
+            "percentual_uso_swap": 8.99,
+            "processos": [
+                {
+                    "pid": 12004,
+                    "name": "RBC_telemetria_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 9.69,
+                    "memory_percent": 0.32,
+                    "num_threads": 15,
+                    "cmdline": [
+                        "RBC_telemetria_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_telemetria_1",
+                    "create_time": "2026-04-01T03:00:00",
+                    "memory_info": {
+                        "rss": 55184863,
+                        "vms": 82242929
+                    },
+                    "cpu_times": {
+                        "user": 324.65,
+                        "system": 16.04
+                    }
+                },
+                {
+                    "pid": 12006,
+                    "name": "RBC_monitor_saude_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 6.92,
+                    "memory_percent": 0.18,
+                    "num_threads": 20,
+                    "cmdline": [
+                        "RBC_monitor_saude_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_monitor_saude_1",
+                    "create_time": "2026-04-01T03:00:00",
+                    "memory_info": {
+                        "rss": 30810519,
+                        "vms": 42116393
+                    },
+                    "cpu_times": {
+                        "user": 387.22,
+                        "system": 46.55
+                    }
+                },
+                {
+                    "pid": 12699,
+                    "name": "RBC_telemetria_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 11.42,
+                    "memory_percent": 0.31,
+                    "num_threads": 9,
+                    "cmdline": [
+                        "RBC_telemetria_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_telemetria_2",
+                    "create_time": "2026-04-02T00:20:00",
+                    "memory_info": {
+                        "rss": 53812407,
+                        "vms": 84036883
+                    },
+                    "cpu_times": {
+                        "user": 176.5,
+                        "system": 4.63
+                    }
+                },
+                {
+                    "pid": 14498,
+                    "name": "RBC_gerente_sessao_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 7.8,
+                    "memory_percent": 0.36,
+                    "num_threads": 12,
+                    "cmdline": [
+                        "RBC_gerente_sessao_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerente_sessao_1",
+                    "create_time": "2026-04-05T08:40:00",
+                    "memory_info": {
+                        "rss": 61660353,
+                        "vms": 79151577
+                    },
+                    "cpu_times": {
+                        "user": 108.68,
+                        "system": 110.86
+                    }
+                },
+                {
+                    "pid": 14602,
+                    "name": "RBC_escritor_auditoria_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 10.92,
+                    "memory_percent": 0.42,
+                    "num_threads": 19,
+                    "cmdline": [
+                        "RBC_escritor_auditoria_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_escritor_auditoria_2",
+                    "create_time": "2026-04-06T03:00:00",
+                    "memory_info": {
+                        "rss": 72179991,
+                        "vms": 124432205
+                    },
+                    "cpu_times": {
+                        "user": 424.46,
+                        "system": 56.02
+                    }
+                },
+                {
+                    "pid": 14604,
+                    "name": "RBC_aquecedor_cache_1",
+                    "username": "rbc_analista",
+                    "status": "stopped",
+                    "cpu_percent": 0.0,
+                    "memory_percent": 1.15,
+                    "num_threads": 22,
+                    "cmdline": [
+                        "RBC_aquecedor_cache_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_aquecedor_cache_1",
+                    "create_time": "2026-04-06T03:00:00",
+                    "memory_info": {
+                        "rss": 197533092,
+                        "vms": 333508994
+                    },
+                    "cpu_times": {
+                        "user": 242.45,
+                        "system": 14.19
+                    }
+                },
+                {
+                    "pid": 15219,
+                    "name": "RBC_calculo_rota_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 28.92,
+                    "memory_percent": 0.66,
+                    "num_threads": 20,
+                    "cmdline": [
+                        "RBC_calculo_rota_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_calculo_rota_1",
+                    "create_time": "2026-04-06T23:50:00",
+                    "memory_info": {
+                        "rss": 113893828,
+                        "vms": 172544697
+                    },
+                    "cpu_times": {
+                        "user": 250.66,
+                        "system": 23.13
+                    }
+                },
+                {
+                    "pid": 15249,
+                    "name": "RBC_gerente_sessao_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 15.04,
+                    "memory_percent": 0.57,
+                    "num_threads": 5,
+                    "cmdline": [
+                        "RBC_gerente_sessao_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerente_sessao_2",
+                    "create_time": "2026-04-07T02:00:00",
+                    "memory_info": {
+                        "rss": 97336229,
+                        "vms": 145935811
+                    },
+                    "cpu_times": {
+                        "user": 5.52,
+                        "system": 80.65
+                    }
+                },
+                {
+                    "pid": 15329,
+                    "name": "RBC_despacho_notificacao_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 14.34,
+                    "memory_percent": 0.36,
+                    "num_threads": 7,
+                    "cmdline": [
+                        "RBC_despacho_notificacao_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_despacho_notificacao_1",
+                    "create_time": "2026-04-07T08:50:00",
+                    "memory_info": {
+                        "rss": 62533129,
+                        "vms": 110183495
+                    },
+                    "cpu_times": {
+                        "user": 121.77,
+                        "system": 26.64
+                    }
+                },
+                {
+                    "pid": 15330,
+                    "name": "RBC_despacho_notificacao_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 12.63,
+                    "memory_percent": 0.49,
+                    "num_threads": 13,
+                    "cmdline": [
+                        "RBC_despacho_notificacao_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_despacho_notificacao_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 84383357,
+                        "vms": 135558523
+                    },
+                    "cpu_times": {
+                        "user": 165.91,
+                        "system": 41.13
+                    }
+                },
+                {
+                    "pid": 15332,
+                    "name": "RBC_inferencia_ml_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 60.53,
+                    "memory_percent": 1.28,
+                    "num_threads": 7,
+                    "cmdline": [
+                        "RBC_inferencia_ml_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_inferencia_ml_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 219643518,
+                        "vms": 289600299
+                    },
+                    "cpu_times": {
+                        "user": 492.0,
+                        "system": 65.93
+                    }
+                },
+                {
+                    "pid": 15334,
+                    "name": "RBC_gerador_relatorio_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 10.04,
+                    "memory_percent": 0.96,
+                    "num_threads": 14,
+                    "cmdline": [
+                        "RBC_gerador_relatorio_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerador_relatorio_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 164339747,
+                        "vms": 290648757
+                    },
+                    "cpu_times": {
+                        "user": 205.49,
+                        "system": 35.43
+                    }
+                },
+                {
+                    "pid": 15900,
+                    "name": "RBC_calculo_rota_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 50.79,
+                    "memory_percent": 1.02,
+                    "num_threads": 7,
+                    "cmdline": [
+                        "RBC_calculo_rota_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_calculo_rota_2",
+                    "create_time": "2026-04-08T00:40:00",
+                    "memory_info": {
+                        "rss": 175511196,
+                        "vms": 308689611
+                    },
+                    "cpu_times": {
+                        "user": 292.39,
+                        "system": 51.19
+                    }
+                }
+            ]
+        },
+        {
+            "data_hora": "2026-04-07T23:40:00",
+            "criticidade": "MODERADO",
+            "score": 53.056000000000004,
+            "latencia_ping_ms": 84,
+            "memoria_total_bytes_human": "16.00 GB",
+            "memoria_disponivel_bytes_human": "2.40 GB",
+            "disco_livre_bytes_human": "30.72 GB",
+            "disco_usado_bytes_human": "225.28 GB",
+            "taxa_leitura_disco_bytes_por_segundo_human": "856.90 KB",
+            "taxa_escrita_disco_bytes_por_segundo_human": "1.71 MB",
+            "taxa_download_rede_bytes_por_segundo_human": "19.26 MB",
+            "taxa_upload_rede_bytes_por_segundo_human": "8.12 MB",
+            "frequencia_cpu_atual_mhz_human": "1.91 GHz",
+            "frequencia_cpu_minima_mhz_human": "1.20 GHz",
+            "frequencia_cpu_maxima_mhz_human": "4.20 GHz",
+            "percentual_uso_cpu": 26.46,
+            "percentual_uso_ram": 85.0,
+            "percentual_uso_disco": 88.0,
+            "percentual_uso_swap": 10.09,
+            "processos": [
+                {
+                    "pid": 12004,
+                    "name": "RBC_telemetria_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 9.99,
+                    "memory_percent": 0.23,
+                    "num_threads": 12,
+                    "cmdline": [
+                        "RBC_telemetria_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_telemetria_1",
+                    "create_time": "2026-04-01T03:00:00",
+                    "memory_info": {
+                        "rss": 39233580,
+                        "vms": 56826572
+                    },
+                    "cpu_times": {
+                        "user": 299.92,
+                        "system": 31.49
+                    }
+                },
+                {
+                    "pid": 12006,
+                    "name": "RBC_monitor_saude_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 4.56,
+                    "memory_percent": 0.16,
+                    "num_threads": 17,
+                    "cmdline": [
+                        "RBC_monitor_saude_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_monitor_saude_1",
+                    "create_time": "2026-04-01T03:00:00",
+                    "memory_info": {
+                        "rss": 27619193,
+                        "vms": 37185531
+                    },
+                    "cpu_times": {
+                        "user": 70.1,
+                        "system": 17.37
+                    }
+                },
+                {
+                    "pid": 12699,
+                    "name": "RBC_telemetria_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 11.2,
+                    "memory_percent": 0.34,
+                    "num_threads": 5,
+                    "cmdline": [
+                        "RBC_telemetria_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_telemetria_2",
+                    "create_time": "2026-04-02T00:20:00",
+                    "memory_info": {
+                        "rss": 58710607,
+                        "vms": 100132570
+                    },
+                    "cpu_times": {
+                        "user": 236.87,
+                        "system": 111.0
+                    }
+                },
+                {
+                    "pid": 14498,
+                    "name": "RBC_gerente_sessao_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 10.13,
+                    "memory_percent": 0.39,
+                    "num_threads": 21,
+                    "cmdline": [
+                        "RBC_gerente_sessao_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerente_sessao_1",
+                    "create_time": "2026-04-05T08:40:00",
+                    "memory_info": {
+                        "rss": 67386582,
+                        "vms": 110955548
+                    },
+                    "cpu_times": {
+                        "user": 400.76,
+                        "system": 31.25
+                    }
+                },
+                {
+                    "pid": 14602,
+                    "name": "RBC_escritor_auditoria_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 9.68,
+                    "memory_percent": 0.52,
+                    "num_threads": 21,
+                    "cmdline": [
+                        "RBC_escritor_auditoria_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_escritor_auditoria_2",
+                    "create_time": "2026-04-06T03:00:00",
+                    "memory_info": {
+                        "rss": 89775268,
+                        "vms": 141390495
+                    },
+                    "cpu_times": {
+                        "user": 158.72,
+                        "system": 41.0
+                    }
+                },
+                {
+                    "pid": 14604,
+                    "name": "RBC_aquecedor_cache_1",
+                    "username": "rbc_analista",
+                    "status": "stopped",
+                    "cpu_percent": 0.0,
+                    "memory_percent": 0.86,
+                    "num_threads": 3,
+                    "cmdline": [
+                        "RBC_aquecedor_cache_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_aquecedor_cache_1",
+                    "create_time": "2026-04-06T03:00:00",
+                    "memory_info": {
+                        "rss": 147175135,
+                        "vms": 216562188
+                    },
+                    "cpu_times": {
+                        "user": 4.12,
+                        "system": 39.7
+                    }
+                },
+                {
+                    "pid": 15219,
+                    "name": "RBC_calculo_rota_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 39.55,
+                    "memory_percent": 0.81,
+                    "num_threads": 8,
+                    "cmdline": [
+                        "RBC_calculo_rota_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_calculo_rota_1",
+                    "create_time": "2026-04-06T23:50:00",
+                    "memory_info": {
+                        "rss": 138469449,
+                        "vms": 182324686
+                    },
+                    "cpu_times": {
+                        "user": 168.32,
+                        "system": 15.65
+                    }
+                },
+                {
+                    "pid": 15249,
+                    "name": "RBC_gerente_sessao_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 17.46,
+                    "memory_percent": 0.57,
+                    "num_threads": 22,
+                    "cmdline": [
+                        "RBC_gerente_sessao_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerente_sessao_2",
+                    "create_time": "2026-04-07T02:00:00",
+                    "memory_info": {
+                        "rss": 97435260,
+                        "vms": 157877755
+                    },
+                    "cpu_times": {
+                        "user": 310.73,
+                        "system": 15.27
+                    }
+                },
+                {
+                    "pid": 15329,
+                    "name": "RBC_despacho_notificacao_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 18.96,
+                    "memory_percent": 0.45,
+                    "num_threads": 13,
+                    "cmdline": [
+                        "RBC_despacho_notificacao_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_despacho_notificacao_1",
+                    "create_time": "2026-04-07T08:50:00",
+                    "memory_info": {
+                        "rss": 77233084,
+                        "vms": 133779717
+                    },
+                    "cpu_times": {
+                        "user": 226.8,
+                        "system": 78.65
+                    }
+                },
+                {
+                    "pid": 15330,
+                    "name": "RBC_despacho_notificacao_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 22.71,
+                    "memory_percent": 0.45,
+                    "num_threads": 18,
+                    "cmdline": [
+                        "RBC_despacho_notificacao_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_despacho_notificacao_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 77687299,
+                        "vms": 115803254
+                    },
+                    "cpu_times": {
+                        "user": 287.13,
+                        "system": 78.61
+                    }
+                },
+                {
+                    "pid": 15332,
+                    "name": "RBC_inferencia_ml_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 47.72,
+                    "memory_percent": 1.37,
+                    "num_threads": 22,
+                    "cmdline": [
+                        "RBC_inferencia_ml_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_inferencia_ml_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 235948895,
+                        "vms": 393561461
+                    },
+                    "cpu_times": {
+                        "user": 497.86,
+                        "system": 48.29
+                    }
+                },
+                {
+                    "pid": 15334,
+                    "name": "RBC_gerador_relatorio_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 17.02,
+                    "memory_percent": 0.8,
+                    "num_threads": 7,
+                    "cmdline": [
+                        "RBC_gerador_relatorio_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerador_relatorio_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 137502479,
+                        "vms": 190625474
+                    },
+                    "cpu_times": {
+                        "user": 486.37,
+                        "system": 20.94
+                    }
+                }
+            ]
+        },
+        {
+            "data_hora": "2026-04-07T23:50:00",
+            "criticidade": "MODERADO",
+            "score": 65.129,
+            "latencia_ping_ms": 65,
+            "memoria_total_bytes_human": "16.00 GB",
+            "memoria_disponivel_bytes_human": "2.00 GB",
+            "disco_livre_bytes_human": "30.72 GB",
+            "disco_usado_bytes_human": "225.28 GB",
+            "taxa_leitura_disco_bytes_por_segundo_human": "1.33 MB",
+            "taxa_escrita_disco_bytes_por_segundo_human": "2.67 MB",
+            "taxa_download_rede_bytes_por_segundo_human": "18.11 MB",
+            "taxa_upload_rede_bytes_por_segundo_human": "5.15 MB",
+            "frequencia_cpu_atual_mhz_human": "3.02 GHz",
+            "frequencia_cpu_minima_mhz_human": "1.20 GHz",
+            "frequencia_cpu_maxima_mhz_human": "4.20 GHz",
+            "percentual_uso_cpu": 63.61,
+            "percentual_uso_ram": 87.5,
+            "percentual_uso_disco": 88.0,
+            "percentual_uso_swap": 10.98,
+            "processos": [
+                {
+                    "pid": 12004,
+                    "name": "RBC_telemetria_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 13.14,
+                    "memory_percent": 0.27,
+                    "num_threads": 16,
+                    "cmdline": [
+                        "RBC_telemetria_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_telemetria_1",
+                    "create_time": "2026-04-01T03:00:00",
+                    "memory_info": {
+                        "rss": 46165028,
+                        "vms": 80716980
+                    },
+                    "cpu_times": {
+                        "user": 473.7,
+                        "system": 75.01
+                    }
+                },
+                {
+                    "pid": 12006,
+                    "name": "RBC_monitor_saude_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 7.07,
+                    "memory_percent": 0.13,
+                    "num_threads": 14,
+                    "cmdline": [
+                        "RBC_monitor_saude_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_monitor_saude_1",
+                    "create_time": "2026-04-01T03:00:00",
+                    "memory_info": {
+                        "rss": 22561895,
+                        "vms": 37559765
+                    },
+                    "cpu_times": {
+                        "user": 371.19,
+                        "system": 44.93
+                    }
+                },
+                {
+                    "pid": 12699,
+                    "name": "RBC_telemetria_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 9.88,
+                    "memory_percent": 0.24,
+                    "num_threads": 22,
+                    "cmdline": [
+                        "RBC_telemetria_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_telemetria_2",
+                    "create_time": "2026-04-02T00:20:00",
+                    "memory_info": {
+                        "rss": 40450829,
+                        "vms": 49868861
+                    },
+                    "cpu_times": {
+                        "user": 380.08,
+                        "system": 98.39
+                    }
+                },
+                {
+                    "pid": 14498,
+                    "name": "RBC_gerente_sessao_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 9.28,
+                    "memory_percent": 0.38,
+                    "num_threads": 10,
+                    "cmdline": [
+                        "RBC_gerente_sessao_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerente_sessao_1",
+                    "create_time": "2026-04-05T08:40:00",
+                    "memory_info": {
+                        "rss": 65656657,
+                        "vms": 116636200
+                    },
+                    "cpu_times": {
+                        "user": 230.24,
+                        "system": 63.33
+                    }
+                },
+                {
+                    "pid": 14602,
+                    "name": "RBC_escritor_auditoria_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 10.96,
+                    "memory_percent": 0.55,
+                    "num_threads": 19,
+                    "cmdline": [
+                        "RBC_escritor_auditoria_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_escritor_auditoria_2",
+                    "create_time": "2026-04-06T03:00:00",
+                    "memory_info": {
+                        "rss": 95185357,
+                        "vms": 145265814
+                    },
+                    "cpu_times": {
+                        "user": 216.39,
+                        "system": 102.51
+                    }
+                },
+                {
+                    "pid": 14604,
+                    "name": "RBC_aquecedor_cache_1",
+                    "username": "rbc_analista",
+                    "status": "stopped",
+                    "cpu_percent": 0.0,
+                    "memory_percent": 1.11,
+                    "num_threads": 1,
+                    "cmdline": [
+                        "RBC_aquecedor_cache_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_aquecedor_cache_1",
+                    "create_time": "2026-04-06T03:00:00",
+                    "memory_info": {
+                        "rss": 191101293,
+                        "vms": 312211255
+                    },
+                    "cpu_times": {
+                        "user": 44.86,
+                        "system": 104.7
+                    }
+                },
+                {
+                    "pid": 15219,
+                    "name": "RBC_calculo_rota_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 56.9,
+                    "memory_percent": 0.71,
+                    "num_threads": 17,
+                    "cmdline": [
+                        "RBC_calculo_rota_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_calculo_rota_1",
+                    "create_time": "2026-04-06T23:50:00",
+                    "memory_info": {
+                        "rss": 121851174,
+                        "vms": 208918181
+                    },
+                    "cpu_times": {
+                        "user": 299.69,
+                        "system": 54.52
+                    }
+                },
+                {
+                    "pid": 15249,
+                    "name": "RBC_gerente_sessao_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 13.84,
+                    "memory_percent": 0.47,
+                    "num_threads": 12,
+                    "cmdline": [
+                        "RBC_gerente_sessao_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerente_sessao_2",
+                    "create_time": "2026-04-07T02:00:00",
+                    "memory_info": {
+                        "rss": 80263743,
+                        "vms": 138028859
+                    },
+                    "cpu_times": {
+                        "user": 86.8,
+                        "system": 102.69
+                    }
+                },
+                {
+                    "pid": 15329,
+                    "name": "RBC_despacho_notificacao_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 27.62,
+                    "memory_percent": 0.41,
+                    "num_threads": 22,
+                    "cmdline": [
+                        "RBC_despacho_notificacao_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_despacho_notificacao_1",
+                    "create_time": "2026-04-07T08:50:00",
+                    "memory_info": {
+                        "rss": 71092816,
+                        "vms": 112310424
+                    },
+                    "cpu_times": {
+                        "user": 104.26,
+                        "system": 67.87
+                    }
+                },
+                {
+                    "pid": 15330,
+                    "name": "RBC_despacho_notificacao_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 20.03,
+                    "memory_percent": 0.39,
+                    "num_threads": 4,
+                    "cmdline": [
+                        "RBC_despacho_notificacao_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_despacho_notificacao_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 67046575,
+                        "vms": 118406801
+                    },
+                    "cpu_times": {
+                        "user": 396.04,
+                        "system": 97.1
+                    }
+                },
+                {
+                    "pid": 15332,
+                    "name": "RBC_inferencia_ml_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 37.34,
+                    "memory_percent": 1.23,
+                    "num_threads": 17,
+                    "cmdline": [
+                        "RBC_inferencia_ml_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_inferencia_ml_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 210842426,
+                        "vms": 269988777
+                    },
+                    "cpu_times": {
+                        "user": 263.65,
+                        "system": 25.14
+                    }
+                },
+                {
+                    "pid": 15334,
+                    "name": "RBC_gerador_relatorio_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 9.94,
+                    "memory_percent": 0.71,
+                    "num_threads": 4,
+                    "cmdline": [
+                        "RBC_gerador_relatorio_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_gerador_relatorio_2",
+                    "create_time": "2026-04-07T09:00:00",
+                    "memory_info": {
+                        "rss": 122831615,
+                        "vms": 197649440
+                    },
+                    "cpu_times": {
+                        "user": 240.15,
+                        "system": 92.48
+                    }
+                },
+                {
+                    "pid": 15929,
+                    "name": "RBC_calculo_rota_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 52.06,
+                    "memory_percent": 1.37,
+                    "num_threads": 18,
+                    "cmdline": [
+                        "RBC_calculo_rota_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_calculo_rota_2",
+                    "create_time": "2026-04-08T02:50:00",
+                    "memory_info": {
+                        "rss": 236124800,
+                        "vms": 322982014
+                    },
+                    "cpu_times": {
+                        "user": 309.38,
+                        "system": 110.84
+                    }
+                },
+                {
+                    "pid": 15930,
+                    "name": "RBC_monitor_saude_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 4.79,
+                    "memory_percent": 0.14,
+                    "num_threads": 15,
+                    "cmdline": [
+                        "RBC_monitor_saude_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_monitor_saude_2",
+                    "create_time": "2026-04-08T02:50:00",
+                    "memory_info": {
+                        "rss": 23591401,
+                        "vms": 36040953
+                    },
+                    "cpu_times": {
+                        "user": 120.08,
+                        "system": 33.88
+                    }
+                },
+                {
+                    "pid": 15931,
+                    "name": "RBC_escritor_auditoria_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 7.78,
+                    "memory_percent": 0.4,
+                    "num_threads": 14,
+                    "cmdline": [
+                        "RBC_escritor_auditoria_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_escritor_auditoria_1",
+                    "create_time": "2026-04-08T02:50:00",
+                    "memory_info": {
+                        "rss": 67938295,
+                        "vms": 100253149
+                    },
+                    "cpu_times": {
+                        "user": 22.7,
+                        "system": 21.37
+                    }
+                },
+                {
+                    "pid": 15932,
+                    "name": "RBC_trabalhador_link_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 43.55,
+                    "memory_percent": 0.65,
+                    "num_threads": 24,
+                    "cmdline": [
+                        "RBC_trabalhador_link_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_trabalhador_link_1",
+                    "create_time": "2026-04-08T02:50:00",
+                    "memory_info": {
+                        "rss": 111893687,
+                        "vms": 160289310
+                    },
+                    "cpu_times": {
+                        "user": 289.68,
+                        "system": 77.73
+                    }
+                },
+                {
+                    "pid": 15933,
+                    "name": "RBC_trabalhador_link_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 38.9,
+                    "memory_percent": 0.69,
+                    "num_threads": 4,
+                    "cmdline": [
+                        "RBC_trabalhador_link_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_trabalhador_link_2",
+                    "create_time": "2026-04-08T02:50:00",
+                    "memory_info": {
+                        "rss": 118713106,
+                        "vms": 209207106
+                    },
+                    "cpu_times": {
+                        "user": 379.49,
+                        "system": 53.52
+                    }
+                },
+                {
+                    "pid": 15934,
+                    "name": "RBC_aquecedor_cache_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 12.06,
+                    "memory_percent": 0.97,
+                    "num_threads": 14,
+                    "cmdline": [
+                        "RBC_aquecedor_cache_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_aquecedor_cache_2",
+                    "create_time": "2026-04-08T02:50:00",
+                    "memory_info": {
+                        "rss": 166809532,
+                        "vms": 226259070
+                    },
+                    "cpu_times": {
+                        "user": 278.08,
+                        "system": 90.51
+                    }
+                },
+                {
+                    "pid": 15935,
+                    "name": "RBC_sincronizacao_db_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 19.11,
+                    "memory_percent": 1.61,
+                    "num_threads": 22,
+                    "cmdline": [
+                        "RBC_sincronizacao_db_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_sincronizacao_db_1",
+                    "create_time": "2026-04-08T02:50:00",
+                    "memory_info": {
+                        "rss": 275896155,
+                        "vms": 449999926
+                    },
+                    "cpu_times": {
+                        "user": 34.72,
+                        "system": 3.36
+                    }
+                },
+                {
+                    "pid": 15936,
+                    "name": "RBC_sincronizacao_db_2",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 15.23,
+                    "memory_percent": 1.14,
+                    "num_threads": 17,
+                    "cmdline": [
+                        "RBC_sincronizacao_db_2",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_sincronizacao_db_2",
+                    "create_time": "2026-04-08T02:50:00",
+                    "memory_info": {
+                        "rss": 195684558,
+                        "vms": 327845254
+                    },
+                    "cpu_times": {
+                        "user": 334.04,
+                        "system": 54.4
+                    }
+                },
+                {
+                    "pid": 15937,
+                    "name": "RBC_inferencia_ml_1",
+                    "username": "rbc_analista",
+                    "status": "running",
+                    "cpu_percent": 73.49,
+                    "memory_percent": 1.69,
+                    "num_threads": 4,
+                    "cmdline": [
+                        "RBC_inferencia_ml_1",
+                        "--mode=simulado"
+                    ],
+                    "exe": "/opt/RBC_inferencia_ml_1",
+                    "create_time": "2026-04-08T02:50:00",
+                    "memory_info": {
+                        "rss": 289863866,
+                        "vms": 357498180
+                    },
+                    "cpu_times": {
+                        "user": 74.8,
+                        "system": 32.0
+                    }
+                }
+            ]
+        }
+    ]
+}
