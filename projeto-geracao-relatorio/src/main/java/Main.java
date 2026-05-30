@@ -2,7 +2,9 @@ import com.fasterxml.jackson.databind.JsonNode;
 import io.github.cdimascio.dotenv.Dotenv;
 import software.amazon.awssdk.services.s3.model.S3Object;
 
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,13 +26,92 @@ public class Main {
         System.out.println(json.path(String.valueOf(idEmpresa)));
         System.out.println(json.path(String.valueOf(idEmpresa)).path("nome"));
 
-        String mensagem = "---- RELATÓRIO SEMANAL DA " + json.path(String.valueOf(idEmpresa)).path("linhas").path(String.valueOf(idLinha)).path("nome") + " ----\n\n";
-        mensagem += json.path(String.valueOf(idEmpresa)).path("nome")+ "\n";
+        String nome_linha_formatado = json
+                .path(String.valueOf(idEmpresa))
+                .path("linhas")
+                .path(String.valueOf(idLinha))
+                .path("nome")
+                .asText()
+                .replace(" ", "_")
+                .toLowerCase();
 
-        System.out.println(mensagem);
+        String nome_empresa_formatado = json
+                .path(String.valueOf(idEmpresa))
+                .path("nome")
+                .asText()
+                .replace(" ", "_")
+                .toLowerCase();
+        String data_hora_json = json
+                .path(String.valueOf(idEmpresa))
+                .path("data_hora")
+                .asText();
+        String nome_relatorio = "relatorio_" + nome_linha_formatado + "_" + nome_empresa_formatado;
+        Relatorio relatorio = new Relatorio(nome_relatorio);
+        relatorio.abrirRelatorio();
+        relatorio.adicionarCabecalho(
+                "RELATÓRIO SEMANAL DA " + nomeLinha.toUpperCase(),
+                "Baseado na última atualização " + data_hora_json
+        );
 
+        relatorio.escreverCorpo("Custo OPEX desperdicado: " + json
+                .path(String.valueOf(idEmpresa))
+                .path("linhas")
+                .path(String.valueOf(idLinha))
+                .path("resumo")
+                .path("custo_opex_desperdicado")
+                .asDouble());
+        relatorio.escreverCorpo(
+                "Quantidade de alertas: " + json
+                        .path(String.valueOf(idEmpresa))
+                        .path("linhas")
+                        .path(String.valueOf(idLinha))
+                        .path("resumo")
+                        .path("qte_alertas")
+                        .asInt()
+        );
+        relatorio.escreverCorpo("Quantidade de alertas por tipo: ");
+        relatorio.escreverCorpo(
+                "  - ATENÇÃO: " + json
+                        .path(String.valueOf(idEmpresa))
+                        .path("linhas")
+                        .path(String.valueOf(idLinha))
+                        .path("resumo")
+                        .path("tipo_alertas")
+                        .path("ATENÇÃO")
+                        .asInt()
+        );
+        relatorio.escreverCorpo(
+                "  - CRÍTICO: " + json
+                        .path(String.valueOf(idEmpresa))
+                        .path("linhas")
+                        .path(String.valueOf(idLinha))
+                        .path("resumo")
+                        .path("tipo_alertas")
+                        .path("CRITICO")
+                        .asInt()
+        );
+        relatorio.escreverCorpo("Quantidade de alertas por motivo: ");
 
+        JsonNode alertas_por_motivo = json
+                .path(String.valueOf(idEmpresa))
+                .path("linhas")
+                .path(String.valueOf(idLinha))
+                .path("resumo")
+                .path("alertas_por_motivo");
+        Iterator<Map.Entry<String, JsonNode>> campos = alertas_por_motivo.fields();
 
+        while(campos.hasNext()){
+            Map.Entry<String, JsonNode> campo = campos.next();
+            String motivo = campo.getKey();
+            JsonNode valor = campo.getValue();
+            relatorio.escreverCorpo(
+                    "   - " + motivo + ": " + valor
+            );
+            System.out.println("Motivo: " + motivo);
+            System.out.println("Valor: " + valor);
+        }
+
+        relatorio.fecharRelatorio();
 
     }
 }
