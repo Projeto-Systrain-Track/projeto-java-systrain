@@ -18,10 +18,10 @@ public class Relatorio {
     private final Font subtitulo = new Font(Font.STRIKETHRU, 16, Font.BOLD);
     private final Font corpo = new Font(Font.STRIKETHRU, 14, Font.NORMAL);
 
-    public Relatorio(String nomeArquivo) {
+    public Relatorio(String caminho) {
         this.relatorio = new Document();
         try {
-            PdfWriter.getInstance(relatorio, new FileOutputStream(nomeArquivo + ".pdf"));
+            PdfWriter.getInstance(relatorio, new FileOutputStream(caminho));
         } catch (FileNotFoundException e) {
             System.out.println("Erro ao iniciar relatório: " + e.getMessage());
         }

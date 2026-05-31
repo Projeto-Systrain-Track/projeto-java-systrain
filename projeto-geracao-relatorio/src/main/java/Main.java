@@ -8,14 +8,16 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
-        Dotenv dotenv = Dotenv.load();
-        int idEmpresa = 3;
-        String nomeEmpresa = "Rota trilhos Seguros";
-        int idLinha = 5;
-        String nomeLinha = "Linha 7 - Rubi ";
-        int idUsuario = 5;
-        String emailUsuario = "pedro.holiveira@sptech.school";
-
+        String idEmpresa = args[0];
+        String nomeEmpresa = args[1];
+        String idLinha = args[2];
+        String nomeLinha = args[3];
+        String emailUsuario = args[4];
+        String caminho = args[5];
+        Dotenv dotenv = Dotenv.configure()
+                .directory(args[6])
+                .filename(".env")
+                .load();
         S3DAO s3 = new S3DAO();
         System.out.println("Cliente S3:" + s3);
         String nome_bucket = dotenv.get("AWS_BUCKET");
@@ -77,8 +79,7 @@ public class Main {
                 .path("tipo_alertas")
                 .path("CRITICO")
                 .asInt();
-        String nome_relatorio = "relatorio_" + nome_linha_formatado + "_" + nome_empresa_formatado;
-        Relatorio relatorio = new Relatorio(nome_relatorio);
+        Relatorio relatorio = new Relatorio(caminho);
         relatorio.abrirRelatorio();
         relatorio.adicionarCabecalho(
                 "RELATÓRIO SEMANAL DA " + nomeLinha.toUpperCase(),
