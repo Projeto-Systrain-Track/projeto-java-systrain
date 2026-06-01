@@ -13,6 +13,7 @@ target/
 *.iml
 *.ipr
 .env.dev
+historico_incidentes.txt
 
 ### Eclipse ###
 .apt_generated
