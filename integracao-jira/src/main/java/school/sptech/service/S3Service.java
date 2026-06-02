@@ -16,6 +16,39 @@ public class S3Service {
     private static final S3Client client = S3Provider.criarCliente();
     private static final String bucket = S3Connection.getBUCKET_NAME();
 
+    public  static List<String> listarEmpresasClient(){
+        List<String> empresasDescobertas = new ArrayList<>();
+
+        try{
+            ListObjectsV2Request busca = ListObjectsV2Request.builder()
+                    .bucket(bucket)
+                    .prefix("client/")
+                    .delimiter("/")
+                    .build();
+
+            ListObjectsV2Response resposta = client.listObjectsV2(busca);
+
+
+            if (resposta.hasCommonPrefixes()) {
+                for (CommonPrefix prefixo : resposta.commonPrefixes()) {
+                    String nomePasta = prefixo.prefix().replace("client/", "").replace("/", "");
+
+                    if (!nomePasta.isEmpty()) {
+                        empresasDescobertas.add(nomePasta);
+                    }
+                }
+            }
+            return empresasDescobertas;
+
+        }catch (S3Exception e) {
+            System.out.println("[S3Service] Erro da AWS ao tentar listar pastas: " + e.getMessage());
+            return empresasDescobertas;
+        }catch (Exception e){
+            System.out.println("[S3Service] Erro inesperado ao mapear pastas do S3: " + e.getMessage());
+            return empresasDescobertas;
+        }
+    }
+
     public static List<IncidenteTelaDTO> buscarIncidentesDoS3(String chaveS3) {
         List<IncidenteTelaDTO> listaMapeada = new ArrayList<>();
 
@@ -25,7 +58,6 @@ public class S3Service {
                     .bucket(bucket)
                     .key(chaveS3)
                     .build();
-
 
 
             //download do arquivo como um array de bytes e transforma em String
