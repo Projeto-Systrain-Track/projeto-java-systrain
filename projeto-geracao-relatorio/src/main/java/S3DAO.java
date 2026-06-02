@@ -33,9 +33,9 @@ public class S3DAO {
             System.out.println("Listar objetos feito com sucesso!");
             return arquivos;
         } catch (Exception e) {
-            System.out.println("ERRO AO LISTAR OBJETOS"+ e.getMessage());
+            System.out.println("ERRO AO LISTAR OBJETOS");
+            return null;
         }
-        return null;
     }
 
     public JsonNode buscarArquivo(String nome_bucket, String caminho_arquivo){
