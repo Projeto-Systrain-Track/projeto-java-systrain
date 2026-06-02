@@ -1,4 +1,3 @@
-import io.github.cdimascio.dotenv.Dotenv;
 import kotlin.jvm.internal.TypeReference;
 import software.amazon.awssdk.core.ResponseInputStream;
 import software.amazon.awssdk.services.s3.S3Client;
@@ -17,9 +16,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class S3DAO {
     public List<S3Object> listarObjetos (String nome_bucket, String caminho){
-        Dotenv dotenv = Dotenv.load();
         final S3Client s3 = ConexaoS3.criarCliente();
-
         try{
             ListObjectsV2Request listRequest = ListObjectsV2Request.builder()
                     .bucket(nome_bucket)

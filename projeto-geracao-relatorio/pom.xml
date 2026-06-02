@@ -81,12 +81,6 @@
             <version>2.17.0</version>
         </dependency>
 
-        <!-- LEITURA DO .ENV-->
-        <dependency>
-            <groupId>io.github.cdimascio</groupId>
-            <artifactId>java-dotenv</artifactId>
-            <version>5.2.2</version>
-        </dependency>
         <!-- CRIAÇÃO DE PDF -->
         <dependency>
             <groupId>com.github.librepdf</groupId>

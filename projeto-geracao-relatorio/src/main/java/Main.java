@@ -1,5 +1,4 @@
 import com.fasterxml.jackson.databind.JsonNode;
-import io.github.cdimascio.dotenv.Dotenv;
 import software.amazon.awssdk.services.s3.model.S3Object;
 
 import java.time.LocalDate;
@@ -18,12 +17,9 @@ public class Main {
         String emailUsuario = args[4];
         String caminho = args[5];
         String caminhoEnv = args[6];
-        Dotenv dotenv = Dotenv.configure()
-                .directory(caminhoEnv)
-                .load();
         S3DAO s3 = new S3DAO();
         System.out.println("Cliente S3:" + s3);
-        String nome_bucket = dotenv.get("AWS_BUCKET");
+        String nome_bucket = System.getenv("S3_BUCKET_NAME");
         String caminho_client = "client/" + nomeEmpresaFormatado + "/";
         List<S3Object> arquivos = s3.listarObjetos(nome_bucket, caminho_client);
         boolean gerouRelatorio = false;

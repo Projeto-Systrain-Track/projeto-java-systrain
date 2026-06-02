@@ -1,6 +1,5 @@
 import com.google.genai.Client;
 import com.google.genai.types.GenerateContentResponse;
-import io.github.cdimascio.dotenv.Dotenv;
 
 public class Gemini {
     private Client client;
@@ -9,8 +8,7 @@ public class Gemini {
 
 
     public Gemini() {
-        Dotenv dotenv = Dotenv.load();
-        String apiKey = dotenv.get("GEMINI_API_KEY");
+        String apiKey = System.getenv("GEMINI_API_KEY");
         this.client = Client.builder().apiKey(apiKey).build();
     }
 
